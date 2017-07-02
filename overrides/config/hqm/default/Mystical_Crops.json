@@ -185,8 +185,8 @@
     {
       "uuid": "f8dde421-9b7c-4d6d-9b9f-c0319d58670b",
       "name": "Pig Seeds",
-      "x": 206,
-      "y": 151,
+      "x": 204,
+      "y": 175,
       "icon": {
         "id": "mysticalagriculture:pig_essence"
       },
@@ -585,8 +585,8 @@
     {
       "uuid": "74c45df4-59f7-4cb2-a6d2-26a9d3fc6d89",
       "name": "Cow Seeds",
-      "x": 181,
-      "y": 137,
+      "x": 179,
+      "y": 164,
       "icon": {
         "id": "mysticalagriculture:cow_essence"
       },
@@ -716,6 +716,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:prudentium_essence",
+          "amount": 8
         }
       ],
       "commandrewards": []
@@ -1053,6 +1059,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "5535cf20-2ac0-4b7e-9c36-5c3709558170",
+      "name": "Sheep Seeds",
+      "x": 179,
+      "y": 136,
+      "icon": {
+        "id": "mysticalagriculture:sheep_essence"
+      },
+      "prerequisites": [
+        "fd43c1dc-ea89-433e-ab37-3c10a2d2e34f",
+        "b7535cd1-7a4c-413e-934c-967623ae6a75"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:sheep_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:sheep_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:prudentium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "957faeb9-8d26-400b-b07a-c26f6196e269",
       "name": "Apatite Seeds",
       "x": 62,
@@ -1255,6 +1298,16 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:coal_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:prudentium_essence",
+          "amount": 2
         }
       ],
       "commandrewards": []

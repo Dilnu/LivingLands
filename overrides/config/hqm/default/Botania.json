@@ -293,6 +293,85 @@
       "prerequisites": [
         "c560bdac-8ff5-47b2-bd27-209a2dc76bc0"
       ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 9
+        },
+        {
+          "id": "botania:rune",
+          "damage": 10
+        },
+        {
+          "id": "botania:rune",
+          "damage": 11
+        },
+        {
+          "id": "botania:rune",
+          "damage": 12
+        },
+        {
+          "id": "botania:rune",
+          "damage": 13
+        },
+        {
+          "id": "botania:rune",
+          "damage": 14
+        },
+        {
+          "id": "botania:rune",
+          "damage": 15
+        }
+      ],
       "commandrewards": []
     },
     {
