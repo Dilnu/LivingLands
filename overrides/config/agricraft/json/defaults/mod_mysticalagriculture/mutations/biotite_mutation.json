@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/biotite_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "ender_biotite_plant",
+  "parent1": "end_plant",
+  "parent2": "nether_quartz_plant"
+}

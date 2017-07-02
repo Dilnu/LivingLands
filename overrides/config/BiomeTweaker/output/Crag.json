@@ -1,0 +1,68 @@
+
+{
+  "ID": 51,
+  "Name": "Crag",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenCrag",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:crag_rock",
+  "Filler Block": "biomesoplenty:crag_rock",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "944693",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 944693,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "COLD",
+    "DRY",
+    "MAGICAL",
+    "MOUNTAIN",
+    "HILLS",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "emeralds"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "COLD_SWAMP": 1
+  },
+  "BOP Climate Weights": {
+    "COLD_SWAMP": [
+      1
+    ]
+  }
+}

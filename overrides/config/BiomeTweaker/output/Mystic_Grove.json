@@ -1,0 +1,157 @@
+
+{
+  "ID": 70,
+  "Name": "Mystic Grove",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenMysticGrove",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:grass",
+  "Filler Block": "biomesoplenty:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16715898",
+  "Temperature": 0.6,
+  "Humidity": 0.8,
+  "Water Tint": 16715898,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DENSE",
+    "WET",
+    "LUSH",
+    "MAGICAL",
+    "FOREST"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "BIG_SHROOM Generators": [
+      {
+        "ID": "big_mushrooms",
+        "Name": "big_red_mushroom"
+      },
+      {
+        "ID": "big_mushrooms",
+        "Name": "big_brown_mushroom"
+      }
+    ],
+    "LILYPAD Generators": [
+      {
+        "ID": "flora",
+        "Name": "medium_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "algae"
+      },
+      {
+        "ID": "flora",
+        "Name": "small_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "flower_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "tiny_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "lily"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "shrubs"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "sprouts"
+      },
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "leaf_piles"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "clover_patches"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "hot_springs"
+      },
+      {
+        "ID": "lakes",
+        "Name": "poison_lakes"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "topaz"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "brown_mushrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "blue_milk_caps"
+      },
+      {
+        "ID": "flora",
+        "Name": "red_mushrooms"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "WET_TEMPERATE": 1
+  },
+  "BOP Climate Weights": {
+    "WET_TEMPERATE": [
+      1
+    ]
+  }
+}

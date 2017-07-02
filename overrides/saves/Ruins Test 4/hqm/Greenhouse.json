@@ -1,0 +1,1399 @@
+{
+  "name": "Greenhouse",
+  "quests": [
+    {
+      "uuid": "fb384ca6-2108-4b63-a138-cd2e724fa554",
+      "name": "Carrot",
+      "x": 71,
+      "y": 90,
+      "icon": {
+        "id": "minecraft:carrot"
+      },
+      "prerequisites": [
+        "2dd1fa21-acf0-4707-bf2a-e95e981a1ae4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"carrot_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:carrot"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:carrot",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f0bac0b-16c1-4515-8199-d7a4f9f58840",
+      "name": "Daisy",
+      "x": 162,
+      "y": 117,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 8
+      },
+      "prerequisites": [
+        "7e5e0f41-cebe-4d10-92b0-66e0327c8516"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"daisy_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 8
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 8,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8287b1c6-fe65-4f2d-89ee-b82bd6a738c1",
+      "name": "Orange Tulip",
+      "x": 193,
+      "y": 81,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 5
+      },
+      "prerequisites": [
+        "3f0bac0b-16c1-4515-8199-d7a4f9f58840"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"orangetulip_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 5
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 5,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b7535cd1-7a4c-413e-934c-967623ae6a75",
+      "name": "Cotton",
+      "x": 22,
+      "y": 186,
+      "icon": {
+        "id": "natura:materials",
+        "damage": 3
+      },
+      "prerequisites": [
+        "c08c8439-dcba-4979-bd36-1a73cb015b7a",
+        "38eb349c-0531-4e25-ad78-c3351558773a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "natura:overworld_seeds",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "natura:materials",
+                "damage": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "natura:materials",
+          "damage": 3,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dea325c4-161c-4e43-8eca-f9d4931f6b14",
+      "name": "Final Magical Flowers",
+      "x": 246,
+      "y": 146,
+      "icon": {
+        "id": "botania:petal",
+        "damage": 12
+      },
+      "prerequisites": [
+        "6a53a199-8687-4233-bf62-0ee442b10973"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_light_gray_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_brown_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_pink_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:flower",
+          "damage": 8,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 12,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 6,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb186240-4322-4c21-b5ab-60c3a37ed428",
+      "name": "White Tulip",
+      "x": 194,
+      "y": 115,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 6
+      },
+      "prerequisites": [
+        "3f0bac0b-16c1-4515-8199-d7a4f9f58840"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"whitetulip_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 6
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 6,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dd42f753-59ef-4f87-b244-fefa966f07af",
+      "name": "Pink Tulip",
+      "x": 189,
+      "y": 155,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 7
+      },
+      "prerequisites": [
+        "231f347e-2d2e-4618-9118-c7830dd192c0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"pinktulip_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 7
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 7,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "231f347e-2d2e-4618-9118-c7830dd192c0",
+      "name": "Allium",
+      "x": 162,
+      "y": 167,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 2
+      },
+      "prerequisites": [
+        "7e5e0f41-cebe-4d10-92b0-66e0327c8516"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"allium_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 2
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 2,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7e5e0f41-cebe-4d10-92b0-66e0327c8516",
+      "name": "Blue Orchid",
+      "x": 132,
+      "y": 149,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 1
+      },
+      "prerequisites": [
+        "c08c8439-dcba-4979-bd36-1a73cb015b7a",
+        "326412f7-e550-472c-a4fb-e0ea55ecaa99"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"orchid_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 1,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ca129f79-535c-41ab-b16d-868b0f96c4b6",
+      "name": "Brown Mushroom",
+      "x": 124,
+      "y": 71,
+      "icon": {
+        "id": "forestry:mushroom"
+      },
+      "prerequisites": [
+        "fb384ca6-2108-4b63-a138-cd2e724fa554"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"brown_mushroom_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brown_mushroom"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:brown_mushroom",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "574876f4-72bd-4f05-84fb-dd435c61531a",
+      "name": "Turnip",
+      "x": 129,
+      "y": 103,
+      "icon": {
+        "id": "biomesoplenty:turnip"
+      },
+      "prerequisites": [
+        "326412f7-e550-472c-a4fb-e0ea55ecaa99"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "biomesoplenty:turnip_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "biomesoplenty:turnip"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:turnip",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "74e7a445-871c-4cf1-ae04-77bf9872cd75",
+      "name": "Cactus",
+      "x": 43,
+      "y": 70,
+      "icon": {
+        "id": "minecraft:dye",
+        "damage": 2
+      },
+      "prerequisites": [
+        "2dd1fa21-acf0-4707-bf2a-e95e981a1ae4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"cactus_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cactus"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cactus",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 2,
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "38eb349c-0531-4e25-ad78-c3351558773a",
+      "name": "Barley",
+      "description": "Barley can be bred from wheat and sugarcane.",
+      "x": 22,
+      "y": 43,
+      "icon": {
+        "id": "natura:materials"
+      },
+      "prerequisites": [
+        "833d3247-11c7-4e7f-9e01-a0d9cfe77ec7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "natura:overworld_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "natura:materials"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "natura:materials",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec14b21c-96ca-4e1c-9abf-a154683d5d91",
+      "name": "Netherwart",
+      "x": 183,
+      "y": 33,
+      "icon": {
+        "id": "minecraft:nether_wart"
+      },
+      "prerequisites": [
+        "f9226f73-5e97-47ba-bb61-3a334ca51f63",
+        "875ca2cf-4000-4a7c-a52d-a5d1cc93d437"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_wart"
+              },
+              "required": 3,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:nether_wart",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c08c8439-dcba-4979-bd36-1a73cb015b7a",
+      "name": "Dandelion",
+      "x": 94,
+      "y": 169,
+      "icon": {
+        "id": "minecraft:yellow_flower"
+      },
+      "prerequisites": [
+        "997bfb14-d086-4c71-96b2-01af847f1a7c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"dandelion_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:yellow_flower"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:yellow_flower",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad69daa9-eed9-4af2-aec1-cc1d2e545192",
+      "name": "Hemp",
+      "x": 67,
+      "y": 194,
+      "icon": {
+        "id": "immersiveengineering:material",
+        "damage": 4
+      },
+      "prerequisites": [
+        "b7535cd1-7a4c-413e-934c-967623ae6a75"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:seed"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:material",
+                "damage": 4
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:seed",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0cd81f20-1092-46dd-8d6f-83d420c29da4",
+      "name": "Broccoli",
+      "x": 41,
+      "y": 107,
+      "icon": {
+        "id": "calculator:Broccoli"
+      },
+      "prerequisites": [
+        "d183882d-cf44-46f4-be91-320efa5f1691"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calculator:BroccoliSeeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calculator:Broccoli"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "calculator:Broccoli",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "997bfb14-d086-4c71-96b2-01af847f1a7c",
+      "name": "Melon",
+      "x": 56,
+      "y": 153,
+      "icon": {
+        "id": "minecraft:melon"
+      },
+      "prerequisites": [
+        "d183882d-cf44-46f4-be91-320efa5f1691"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:melon_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:melon"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:melon",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:melon_block"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d183882d-cf44-46f4-be91-320efa5f1691",
+      "name": "Pumpkin",
+      "x": 68,
+      "y": 124,
+      "icon": {
+        "id": "minecraft:pumpkin"
+      },
+      "prerequisites": [
+        "fb384ca6-2108-4b63-a138-cd2e724fa554"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:pumpkin_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:pumpkin"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2dd1fa21-acf0-4707-bf2a-e95e981a1ae4",
+      "name": "Potato",
+      "description": "Potatoes can be bred from sugarcane and beets.",
+      "x": 86,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:potato"
+      },
+      "prerequisites": [
+        "833d3247-11c7-4e7f-9e01-a0d9cfe77ec7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"potato_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potato"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potato",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0e7a0e16-ce26-4c92-8abc-3ee229789eed",
+      "name": "Primary Mystical Flowers",
+      "x": 248,
+      "y": 31,
+      "icon": {
+        "id": "botania:petal"
+      },
+      "prerequisites": [
+        "fb186240-4322-4c21-b5ab-60c3a37ed428",
+        "8287b1c6-fe65-4f2d-89ee-b82bd6a738c1",
+        "dd42f753-59ef-4f87-b244-fefa966f07af",
+        "9c649010-dd11-4368-b1f2-0a6affd34aef"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_white_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_blue_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_red_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_yellow_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:flower",
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 11,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 14,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 4,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c649010-dd11-4368-b1f2-0a6affd34aef",
+      "name": "Red Tulip",
+      "x": 191,
+      "y": 188,
+      "icon": {
+        "id": "minecraft:red_flower",
+        "damage": 4
+      },
+      "prerequisites": [
+        "231f347e-2d2e-4618-9118-c7830dd192c0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"redtulip_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 4
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "damage": 4,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "326412f7-e550-472c-a4fb-e0ea55ecaa99",
+      "name": "Poppy",
+      "x": 103,
+      "y": 123,
+      "icon": {
+        "id": "minecraft:red_flower"
+      },
+      "prerequisites": [
+        "d183882d-cf44-46f4-be91-320efa5f1691"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"poppy_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_flower",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "833d3247-11c7-4e7f-9e01-a0d9cfe77ec7",
+      "name": "Unnamed",
+      "x": 58,
+      "y": 43,
+      "icon": {
+        "id": "agricraft:agri_seed",
+        "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"sugarcane_plant\",agri_growth:1b}"
+      },
+      "prerequisites": [
+        "7e098f3b-87b3-4f25-a6e1-df673e81da85"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"sugarcane_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7e098f3b-87b3-4f25-a6e1-df673e81da85",
+      "name": "Unnamed",
+      "x": 73,
+      "y": 20,
+      "icon": {
+        "id": "agricraft:crop_sticks"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:mattock",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,HarvestLevelAxe:0,MiningSpeed:2.0f,FreeModifiers:3,HarvestLevelShovel:0,Durability:60,HarvestLevel:0,Attack:5.0f},Stats:{AttackSpeedMultiplier:1.0f,HarvestLevelAxe:0,MiningSpeed:2.0f,FreeModifiers:3,HarvestLevelShovel:0,Durability:60,HarvestLevel:0,Attack:5.0f},Special:{Categories:[0:\"tool\",1:\"harvest\"]},TinkerData:{Materials:[0:\"wood\",1:\"wood\",2:\"wood\"],Modifiers:[0:\"toolleveling\"]},Modifiers:[0:{identifier:\"ecological\",color:-7444965,level:1},1:{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[0:\"ecological\",1:\"toolleveling\"]}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:crop_sticks"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:beetroot"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "agricraft:crop_sticks",
+          "amount": 20
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 40
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9881546e-423d-4511-8753-91978e83b0c9",
+      "name": "Seed Analyzer",
+      "x": 108,
+      "y": 23,
+      "icon": {
+        "id": "agricraft:seed_analyzer"
+      },
+      "prerequisites": [
+        "7e098f3b-87b3-4f25-a6e1-df673e81da85"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:seed_analyzer"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "agricraft:journal"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20559d93-33b2-457d-aa18-c445c133c360",
+      "name": "Secondary Mystical Flowers",
+      "x": 247,
+      "y": 68,
+      "icon": {
+        "id": "botania:petal",
+        "damage": 1
+      },
+      "prerequisites": [
+        "0e7a0e16-ce26-4c92-8abc-3ee229789eed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_black_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_green_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_orange_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_magenta_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_light_blue_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:flower",
+          "damage": 15,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 13,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 2,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 3,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "875ca2cf-4000-4a7c-a52d-a5d1cc93d437",
+      "name": "Red Mushroom",
+      "x": 146,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:red_mushroom"
+      },
+      "prerequisites": [
+        "ca129f79-535c-41ab-b16d-868b0f96c4b6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"red_mushroom_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_mushroom"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:red_mushroom",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6a53a199-8687-4233-bf62-0ee442b10973",
+      "name": "Teritary Mystical Flowers",
+      "x": 246,
+      "y": 107,
+      "icon": {
+        "id": "botania:petal",
+        "damage": 5
+      },
+      "prerequisites": [
+        "20559d93-33b2-457d-aa18-c445c133c360"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_gray_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_purple_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_cyan_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "agricraft:agri_seed",
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"botania_lime_plant\",agri_growth:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:flower",
+          "damage": 7,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 10,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 9,
+          "amount": 8
+        },
+        {
+          "id": "botania:flower",
+          "damage": 5,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

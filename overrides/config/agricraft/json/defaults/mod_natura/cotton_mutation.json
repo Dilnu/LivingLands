@@ -1,0 +1,8 @@
+{
+  "path": "mod_natura/cotton_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "cotton_plant",
+  "parent1": "barley_plant",
+  "parent2": "dandelion_plant"
+}

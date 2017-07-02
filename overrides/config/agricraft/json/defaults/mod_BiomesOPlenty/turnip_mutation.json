@@ -1,0 +1,8 @@
+{
+  "path": "mod_BiomesOPlenty/turnip_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "turnip_bop_plant",
+  "parent1": "beet_plant",
+  "parent2": "carrot_plant"
+}

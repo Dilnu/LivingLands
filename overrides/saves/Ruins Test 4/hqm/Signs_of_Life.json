@@ -1,0 +1,567 @@
+{
+  "name": "Signs of Life",
+  "quests": [
+    {
+      "uuid": "316b924f-0e9a-4658-8572-ced56f022a09",
+      "name": "The Remains of Trees",
+      "description": "Investigating the Trees",
+      "x": 74,
+      "y": 17,
+      "icon": {
+        "id": "biomesoplenty:sapling_0",
+        "damage": 5
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "biomesoplenty:log_4",
+                "damage": 5
+              },
+              "required": 6
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stick"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:log_4",
+          "damage": 5,
+          "amount": 20
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3b6a03de-3e05-4007-9716-8902b38e211c",
+      "name": "Unnamed",
+      "x": 59,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:dirt"
+      },
+      "prerequisites": [
+        "165010fd-18ca-44df-abcb-aa7d29ae1dab"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:dirt"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:dirt",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2475651-2cb4-4930-9b93-15ffc422fe16",
+      "name": "Unnamed",
+      "x": 74,
+      "y": 64,
+      "icon": {
+        "id": "tconstruct:tooltables",
+        "damage": 3
+      },
+      "prerequisites": [
+        "03de40e9-e0bc-49b9-acc8-f185a98e6d26"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tooltables",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:tooltables",
+                "damage": 1,
+                "nbt": "{textureBlock:{id:\"minecraft:planks\",Count:1b,Damage:0s}}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:tooltables",
+                "damage": 2,
+                "nbt": "{textureBlock:{id:\"minecraft:log\",Count:1b,Damage:0s}}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:tooltables",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:tooltables",
+          "damage": 5
+        },
+        {
+          "id": "tconstruct:pattern",
+          "amount": 12
+        },
+        {
+          "id": "tconstruct:book"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03de40e9-e0bc-49b9-acc8-f185a98e6d26",
+      "name": "Unnamed",
+      "x": 89,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:planks"
+      },
+      "prerequisites": [
+        "3b6a03de-3e05-4007-9716-8902b38e211c",
+        "453a6fd4-6d05-4ccc-936f-0066c4d1e31a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log",
+          "amount": 20
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "165010fd-18ca-44df-abcb-aa7d29ae1dab",
+      "name": "Unnamed",
+      "x": 45,
+      "y": 17,
+      "icon": {
+        "id": "tconstruct:pickaxe",
+        "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Special:{Categories:[0:\"tool\",1:\"harvest\"]},TinkerData:{Materials:[0:\"wood\",1:\"wood\",2:\"wood\"],Modifiers:[0:\"toolleveling\"]},Modifiers:[0:{identifier:\"ecological\",color:-7444965,level:1},1:{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[0:\"ecological\",1:\"toolleveling\"]}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:pick_head",
+                "nbt": "{Material:\"wood\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:shovel_head",
+                "nbt": "{Material:\"wood\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:binding",
+                "nbt": "{Material:\"wood\"}"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tconstruct:tool_rod",
+                "nbt": "{Material:\"wood\"}"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "You can craft starting tools from the parts you\u0027ve just made and repair them in your inventory crafting gird with the sharpening kits.",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:pickaxe",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Special:{Categories:[0:\"harvest\",1:\"tool\"]},TinkerData:{Materials:[0:\"wood\",1:\"wood\",2:\"wood\"],Modifiers:[0:\"toolleveling\"]},Modifiers:[0:{identifier:\"ecological\",color:-7444965,level:1},1:{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[0:\"ecological\",1:\"toolleveling\"]}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:shovel",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Special:{Categories:[0:\"tool\",1:\"harvest\"]},TinkerData:{Materials:[0:\"wood\",1:\"wood\",2:\"wood\"],Modifiers:[0:\"toolleveling\"]},Modifiers:[0:{identifier:\"ecological\",color:-7444965,level:1},1:{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[0:\"ecological\",1:\"toolleveling\"]}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:sharpening_kit",
+          "amount": 5,
+          "nbt": "{Material:\"wood\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bd8d8374-e786-4efc-911e-8774b1886c42",
+      "name": "Unnamed",
+      "x": 132,
+      "y": 64,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"puredaisy\"}"
+      },
+      "prerequisites": [
+        "52515437-c2f1-4c1f-892f-415e0add9a9b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You can extract enough water from leaves to fill the petal apothecary with.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:altar"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:waterBowl",
+                "nbt": "{Fluid:{FluidName:\"water\",Amount:1000}}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"puredaisy\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:livingrock"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:livingwood"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:livingrock",
+          "amount": 32
+        },
+        {
+          "id": "botania:livingwood",
+          "amount": 32
+        },
+        {
+          "id": "botania:lexicon"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "453a6fd4-6d05-4ccc-936f-0066c4d1e31a",
+      "name": "Unnamed",
+      "x": 103,
+      "y": 17,
+      "icon": {
+        "id": "biomesoplenty:leaves_1",
+        "damage": 9
+      },
+      "prerequisites": [
+        "316b924f-0e9a-4658-8572-ced56f022a09"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "biomesoplenty:sapling_0",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 20
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "damage": 20,
+          "amount": 64
+        },
+        {
+          "id": "biomesoplenty:sapling_0",
+          "damage": 5,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "28c2745c-baa1-4988-809e-bd1d7e50360c",
+      "name": "Unnamed",
+      "x": 117,
+      "y": 41,
+      "icon": {
+        "id": "botania:grassSeeds"
+      },
+      "prerequisites": [
+        "03de40e9-e0bc-49b9-acc8-f185a98e6d26"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ceramics:clay_shears"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "biomesoplenty:plant_0",
+                "damage": 13
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:grassSeeds"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:grass",
+          "amount": 24
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "52515437-c2f1-4c1f-892f-415e0add9a9b",
+      "name": "Unnamed",
+      "x": 102,
+      "y": 64,
+      "icon": {
+        "id": "botania:fertilizer"
+      },
+      "prerequisites": [
+        "28c2745c-baa1-4988-809e-bd1d7e50360c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:fertilizer"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:flower"
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:flower",
+          "amount": 2
+        },
+        {
+          "id": "botania:fertilizer",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fc4ef792-675a-40b4-909a-5e5b8997e91a",
+      "name": "Unnamed",
+      "x": 44,
+      "y": 17,
+      "prerequisites": [
+        "316b924f-0e9a-4658-8572-ced56f022a09"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee8b0f6e-036e-402e-b05a-24925632bcd2",
+      "name": "Unnamed",
+      "x": 146,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:beetroot_seeds"
+      },
+      "prerequisites": [
+        "28c2745c-baa1-4988-809e-bd1d7e50360c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:beetroot_seeds"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wheat_seeds",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:beetroot_seeds",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "186b8259-50f6-46d6-8276-f3f4e5f9ea75",
+      "name": "Unnamed",
+      "x": 88,
+      "y": 90,
+      "icon": {
+        "id": "botania:doubleFlower1"
+      },
+      "prerequisites": [
+        "52515437-c2f1-4c1f-892f-415e0add9a9b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "If you don\u0027t have enough of a specific color of petal you can plant a petal in dirt and grow it with bonemeal or a living root to yield a tall mystical flower. These require shears to harvest.",
+          "items": [
+            {
+              "item": {
+                "id": "botania:doubleFlower1"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "damage": 20,
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

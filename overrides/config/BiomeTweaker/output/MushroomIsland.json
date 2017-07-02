@@ -1,0 +1,79 @@
+
+{
+  "ID": 14,
+  "Name": "MushroomIsland",
+  "Class": "net.minecraft.world.biome.BiomeMushroomIsland",
+  "Root Height": 0.2,
+  "Height Variation": 0.3,
+  "Top Block": "minecraft:mycelium",
+  "Filler Block": "minecraft:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.9,
+  "Humidity": 1.0,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MUSHROOM"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "sapphire"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "blue_milk_caps"
+      },
+      {
+        "ID": "flora",
+        "Name": "glowshrooms_surface"
+      },
+      {
+        "ID": "flora",
+        "Name": "portobellos"
+      },
+      {
+        "ID": "flora",
+        "Name": "flat_mushroom"
+      },
+      {
+        "ID": "flora",
+        "Name": "toadstools"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {}
+}

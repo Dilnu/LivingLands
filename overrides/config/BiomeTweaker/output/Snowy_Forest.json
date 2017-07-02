@@ -1,0 +1,95 @@
+
+{
+  "ID": 84,
+  "Name": "Snowy Forest",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyForest",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:grass",
+  "Filler Block": "biomesoplenty:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": -0.25,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "COLD",
+    "SPARSE",
+    "WET",
+    "FOREST",
+    "SNOWY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": true,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "leaf_piles"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "dead_leaf_piles"
+      },
+      {
+        "ID": "flora",
+        "Name": "shrubs"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "tanzanite"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "TUNDRA": 7
+  },
+  "BOP Climate Weights": {
+    "TUNDRA": [
+      7
+    ]
+  }
+}

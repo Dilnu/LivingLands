@@ -1,0 +1,25 @@
+{
+	"generators" :
+	{
+			"ruby" :
+			{
+				"amountPerChunk" : 0
+			},
+
+			"poison_lakes" :
+			{
+				"amountPerChunk" : 0
+			},
+
+			"trees" : {
+				"amountPerChunk" : 0.225,
+				"generators" :
+				{
+					"dying_tree" :
+					{
+						"weight" : 0
+					}
+				}
+			}
+	}
+}

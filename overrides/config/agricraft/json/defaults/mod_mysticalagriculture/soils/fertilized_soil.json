@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/fertilized_soil.json",
+  "enabled": true,
+  "id": "tilled_fertilized_soil",
+  "name": "Tilled Fertilized Dirt",
+  "varients": [
+    {
+      "item": "randomthings:fertilizedDirtTilled",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

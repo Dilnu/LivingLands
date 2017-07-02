@@ -1,0 +1,203 @@
+{
+  "name": "Botania",
+  "quests": [
+    {
+      "uuid": "3916c570-2ce6-46b7-beda-8a7cdf80171c",
+      "name": "Mana Spreader and Pool",
+      "x": 49,
+      "y": 46,
+      "icon": {
+        "id": "botania:spreader"
+      },
+      "prerequisites": [
+        "83fe6048-dba0-4eb6-b047-6ce06693d477"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spreader"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaTablet",
+          "amount": 2,
+          "nbt": "{mana:500000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6197e70e-8642-48fd-8282-be527cd2433b",
+      "name": "Wand of the Forest",
+      "x": 27,
+      "y": 10,
+      "icon": {
+        "id": "botania:twigWand",
+        "nbt": "{color1:3,color2:3}"
+      },
+      "prerequisites": [
+        "bd8d8374-e786-4efc-911e-8774b1886c42"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 3
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:twigWand",
+                "nbt": "{color1:0,color2:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e0a88b6b-0b30-4d21-a9f7-bfe2db6e67d0",
+      "name": "Runic Altar",
+      "x": 88,
+      "y": 50,
+      "icon": {
+        "id": "botania:runeAltar"
+      },
+      "prerequisites": [
+        "3916c570-2ce6-46b7-beda-8a7cdf80171c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 23
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:master_infusion_crystal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:runeAltar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pestleAndMortar"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "83fe6048-dba0-4eb6-b047-6ce06693d477",
+      "name": "Endoflames",
+      "x": 63,
+      "y": 14,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"endoflame\"}"
+      },
+      "prerequisites": [
+        "6197e70e-8642-48fd-8282-be527cd2433b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:petal",
+                "damage": 12
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "botania:petal",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "botania:petal",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"endoflame\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:specialFlower",
+          "amount": 7,
+          "nbt": "{type:\"endoflame\"}"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

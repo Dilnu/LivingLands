@@ -1,0 +1,94 @@
+
+{
+  "ID": 3,
+  "Name": "Extreme Hills",
+  "Class": "net.minecraft.world.biome.BiomeHills",
+  "Root Height": 1.0,
+  "Height Variation": 0.5,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.2,
+  "Humidity": 0.3,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MOUNTAIN",
+    "HILLS"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      10
+    ],
+    "COOL Weights": [
+      10
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "leaf_piles"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "dead_leaf_piles"
+      },
+      {
+        "ID": "flora",
+        "Name": "shrubs"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "TREE Generators": [
+      {
+        "ID": "weighted",
+        "Name": "trees"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "TUNDRA": [
+      10
+    ],
+    "BOREAL": [
+      5
+    ]
+  }
+}

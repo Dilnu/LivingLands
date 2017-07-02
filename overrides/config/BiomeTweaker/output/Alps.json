@@ -1,0 +1,74 @@
+
+{
+  "ID": 41,
+  "Name": "Alps",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenAlps",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:snow",
+  "Filler Block": "minecraft:snow",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": -0.5,
+  "Humidity": 0.3,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "COLD",
+    "DRY",
+    "MOUNTAIN",
+    "SNOWY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "hot_springs"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "emeralds"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "ICE_CAP": 5,
+    "TUNDRA": 3
+  },
+  "BOP Climate Weights": {
+    "ICE_CAP": [
+      5
+    ],
+    "TUNDRA": [
+      3
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "path": "mod_mysticalagriculture/mutations/silicon_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "silicon_plant",
+  "parent1": "nether_quartz_plant",
+  "parent2": "fire_plant"
+}

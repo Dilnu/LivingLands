@@ -1,0 +1,8 @@
+{
+  "path": "vanilla/mutations/nether_wart_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "nether_wart_plant",
+  "parent1": "red_mushroom_plant",
+  "parent2": "nether_plant"
+}

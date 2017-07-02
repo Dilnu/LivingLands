@@ -1,0 +1,130 @@
+{
+  "name": "Misc",
+  "quests": [
+    {
+      "uuid": "d43cdc2e-39d0-4355-a2ce-9fd7184b054b",
+      "name": "Akashic Tome",
+      "x": 33,
+      "y": 21,
+      "icon": {
+        "id": "akashictome:tome"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "akashictome:tome"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:book"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "09569850-ea59-42a5-9273-a1d7de58bc03",
+      "name": "Unnamed",
+      "x": 33,
+      "y": 22,
+      "commandrewards": []
+    },
+    {
+      "uuid": "5215763e-1022-4111-8dce-58a163df43b0",
+      "name": "Unnamed",
+      "x": 110,
+      "y": 49,
+      "icon": {
+        "id": "storagedrawers:controller"
+      },
+      "prerequisites": [
+        "2c568e36-a69b-4277-9a56-f3bf666fe7bd"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c568e36-a69b-4277-9a56-f3bf666fe7bd",
+      "name": "Storage Drawers",
+      "x": 131,
+      "y": 19,
+      "icon": {
+        "id": "storagedrawers:basicDrawers",
+        "damage": 2,
+        "nbt": "{material:\"oak\"}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "storagedrawers:basicDrawers",
+                "damage": 2,
+                "nbt": "{material:\"oak\"}"
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "storagedrawers:basicDrawers",
+          "amount": 4,
+          "nbt": "{material:\"oak\"}"
+        },
+        {
+          "id": "storagedrawers:basicDrawers",
+          "damage": 2,
+          "amount": 4,
+          "nbt": "{material:\"oak\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8bfbf91-9bb6-427a-94f0-1d0f4c549721",
+      "name": "Unnamed",
+      "x": 144,
+      "y": 52,
+      "icon": {
+        "id": "storagedrawers:compDrawers"
+      },
+      "prerequisites": [
+        "2c568e36-a69b-4277-9a56-f3bf666fe7bd"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6b89accd-008d-4fe8-9f44-85ecc7818f43",
+      "name": "Morph-o-tool",
+      "x": 85,
+      "y": 20,
+      "icon": {
+        "id": "morphtool:tool"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "morphtool:tool"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

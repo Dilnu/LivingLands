@@ -1,0 +1,84 @@
+
+{
+  "ID": 1,
+  "Name": "Plains",
+  "Class": "net.minecraft.world.biome.BiomePlains",
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
+  "Top Block": "minecraft:grass",
+  "Filler Block": "minecraft:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.8,
+  "Humidity": 0.4,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      10
+    ],
+    "COOL Weights": [
+      10
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": true,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "stone_formations"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "peridot"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "DRY_TEMPERATE": [
+      5
+    ],
+    "WARM_TEMPERATE": [
+      20
+    ],
+    "MEDITERANEAN": [
+      5
+    ]
+  }
+}

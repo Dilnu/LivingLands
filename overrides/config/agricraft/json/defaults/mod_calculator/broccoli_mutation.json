@@ -1,0 +1,8 @@
+{
+  "path": "mod_calculator/broccoli_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "broccoli_calculator_plant",
+  "parent1": "wheat_plant",
+  "parent2": "pumpkin_plant"
+}
