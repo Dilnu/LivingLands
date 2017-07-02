@@ -241,6 +241,16 @@
           "items": [
             {
               "item": {
+                "id": "botania:pestleAndMortar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
                 "id": "botania:manaResource",
                 "damage": 23
               }
@@ -264,16 +274,6 @@
             {
               "item": {
                 "id": "botania:runeAltar"
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "botania:pestleAndMortar"
               }
             }
           ]
