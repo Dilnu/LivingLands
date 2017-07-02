@@ -2,6 +2,87 @@
   "name": "Misc",
   "quests": [
     {
+      "uuid": "d34e0821-e295-4df9-98a1-bc4bacc8e3d4",
+      "name": "Tinker Tank",
+      "x": 218,
+      "y": 18,
+      "icon": {
+        "id": "tconstruct:tinker_tank_controller"
+      },
+      "commandrewards": []
+    },
+    {
+      "uuid": "03ba85f0-5cdc-4da9-88be-b0cbee19248a",
+      "name": "Seared Furnace",
+      "x": 183,
+      "y": 17,
+      "icon": {
+        "id": "tconstruct:seared_furnace_controller"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:seared_furnace_controller"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_tank"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared",
+                "damage": 3
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_slab",
+                "damage": 3
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:seared",
+          "damage": 3,
+          "amount": 23
+        },
+        {
+          "id": "tconstruct:seared_slab",
+          "damage": 3,
+          "amount": 7
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:seared_tank",
+          "amount": 4
+        },
+        {
+          "id": "tconstruct:seared_tank",
+          "damage": 1,
+          "amount": 4
+        },
+        {
+          "id": "tconstruct:seared_tank",
+          "damage": 2,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "d43cdc2e-39d0-4355-a2ce-9fd7184b054b",
       "name": "Akashic Tome",
       "x": 33,
@@ -33,6 +114,29 @@
       "name": "Unnamed",
       "x": 33,
       "y": 22,
+      "commandrewards": []
+    },
+    {
+      "uuid": "272b55fd-4961-4d45-8677-b03afb589fe3",
+      "name": "Clippers",
+      "x": 56,
+      "y": 56,
+      "icon": {
+        "id": "agricraft:clipper"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "agricraft:clipper"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
       "commandrewards": []
     },
     {

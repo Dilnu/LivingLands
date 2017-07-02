@@ -2,10 +2,452 @@
   "name": "Mystical Crops Part 2",
   "quests": [
     {
+      "uuid": "1b0865a3-ecb6-4c98-868f-7d284af52503",
+      "name": "Nickel Seeds",
+      "x": 95,
+      "y": 101,
+      "icon": {
+        "id": "mysticalagriculture:nickel_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "c560bdac-8ff5-47b2-bd27-209a2dc76bc0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:nickel_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:nickel_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bf9eeea9-0528-4cd0-a984-3bc7d056f6d5",
+      "name": "Gold Seeds",
+      "x": 109,
+      "y": 35,
+      "icon": {
+        "id": "mysticalagriculture:gold_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "c560bdac-8ff5-47b2-bd27-209a2dc76bc0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:gold_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:gold_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "24b1e2bd-b481-4df4-ab81-c2ba9c6077af",
+      "name": "Manyullyn Seeds",
+      "x": 12,
+      "y": 84,
+      "icon": {
+        "id": "mysticalagriculture:manyullyn_essence"
+      },
+      "prerequisites": [
+        "e8fe9787-c20b-480d-acf9-c75749ea3602",
+        "c1dcbdd4-bf64-461f-ad51-d09145a6e651"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:manyullyn_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:manyullyn_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20175ed9-ff99-4654-9ccf-42ab650acc3c",
+      "name": "Amber Seeds",
+      "x": 39,
+      "y": 114,
+      "icon": {
+        "id": "mysticalagriculture:amber_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "1edbaab1-efd0-44c2-97a7-3e908d61a800"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:amber_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:amber_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "88820cb1-547a-4f36-a43a-4b1dbf6c0858",
+      "name": "Electrum Seeds",
+      "x": 137,
+      "y": 41,
+      "icon": {
+        "id": "mysticalagriculture:electrum_essence"
+      },
+      "prerequisites": [
+        "bf9eeea9-0528-4cd0-a984-3bc7d056f6d5",
+        "3525c50d-0d9e-40c6-9df6-3d2c4d38dcc9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:electrum_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:electrum_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c24ff9bc-9d6f-4a05-92c9-49caa6f59a26",
+      "name": "Prismarine Seeds",
+      "x": 88,
+      "y": 143,
+      "icon": {
+        "id": "mysticalagriculture:guardian_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "1edbaab1-efd0-44c2-97a7-3e908d61a800"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:guardian_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:guardian_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8fe9787-c20b-480d-acf9-c75749ea3602",
+      "name": "Ardite Seeds",
+      "x": 29,
+      "y": 60,
+      "icon": {
+        "id": "mysticalagriculture:ardite_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:ardite_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:ardite_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a916eabb-a196-4a37-bd4b-06f423e3fe23",
+      "name": "End Seeds",
+      "x": 69,
+      "y": 123,
+      "icon": {
+        "id": "mysticalagriculture:end_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "1edbaab1-efd0-44c2-97a7-3e908d61a800"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:end_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:end_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ed4deb77-3e1b-47a0-9cdb-465fd48c94f3",
+      "name": "Steel Seeds",
+      "x": 144,
+      "y": 85,
+      "icon": {
+        "id": "mysticalagriculture:steel_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:steel_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:steel_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "deaec97f-86a7-4743-a567-24412a2b3fe5",
+      "name": "Glowstone Seeds",
+      "x": 85,
+      "y": 20,
+      "icon": {
+        "id": "mysticalagriculture:glowstone_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:glowstone_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:glowstone_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de304b21-fc51-4054-8251-76781a2e1dec",
+      "name": "Peridot Seeds",
+      "x": 48,
+      "y": 139,
+      "icon": {
+        "id": "mysticalagriculture:peridot_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "1edbaab1-efd0-44c2-97a7-3e908d61a800"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:peridot_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:peridot_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "26d716c5-f1b0-4831-bc25-e9834dd6e604",
+      "name": "Constantan Seeds",
+      "x": 111,
+      "y": 128,
+      "icon": {
+        "id": "mysticalagriculture:constantan_essence"
+      },
+      "prerequisites": [
+        "1b0865a3-ecb6-4c98-868f-7d284af52503"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:constantan_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:constantan_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "e1718977-d42a-4796-bb6d-4da713cd2a69",
       "name": "Unnamed",
-      "x": 73,
-      "y": 34,
+      "x": 72,
+      "y": 61,
       "icon": {
         "id": "mysticalagriculture:intermedium_essence"
       },
@@ -27,6 +469,233 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eefb7e2b-c40e-4bbe-8b88-2fb9230b5a76",
+      "name": "Lead Seeds",
+      "x": 124,
+      "y": 103,
+      "icon": {
+        "id": "mysticalagriculture:lead_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "c560bdac-8ff5-47b2-bd27-209a2dc76bc0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:lead_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:lead_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c1dcbdd4-bf64-461f-ad51-d09145a6e651",
+      "name": "Cobalt Seeds",
+      "x": 41,
+      "y": 85,
+      "icon": {
+        "id": "mysticalagriculture:cobalt_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:cobalt_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:cobalt_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3525c50d-0d9e-40c6-9df6-3d2c4d38dcc9",
+      "name": "Silver Seeds",
+      "x": 115,
+      "y": 61,
+      "icon": {
+        "id": "mysticalagriculture:silver_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "c560bdac-8ff5-47b2-bd27-209a2dc76bc0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:silver_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:silver_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2be91275-8e2f-42a7-927b-94a0e58806d7",
+      "name": "Diamond Seeds",
+      "x": 36,
+      "y": 30,
+      "icon": {
+        "id": "mysticalagriculture:diamond_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:diamond_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:diamond_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c89db8c8-a916-48a1-aa4b-7765a1382b58",
+      "name": "Lapis Lazuli Seeds",
+      "x": 58,
+      "y": 14,
+      "icon": {
+        "id": "mysticalagriculture:lapis_lazuli_essence"
+      },
+      "prerequisites": [
+        "e1718977-d42a-4796-bb6d-4da713cd2a69",
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:lapis_lazuli_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:lapis_lazuli_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3170a50b-b293-414d-ac15-949482ef39db",
+      "name": "Ender Biotite Seeds",
+      "x": 64,
+      "y": 165,
+      "icon": {
+        "id": "mysticalagriculture:ender_biotite_essence"
+      },
+      "prerequisites": [
+        "a916eabb-a196-4a37-bd4b-06f423e3fe23"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:ender_biotite_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:ender_biotite_essence",
+          "amount": 4
+        },
+        {
+          "id": "mysticalagriculture:intermedium_essence",
+          "amount": 2
         }
       ],
       "commandrewards": []

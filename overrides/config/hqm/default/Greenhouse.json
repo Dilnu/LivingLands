@@ -482,13 +482,13 @@
     {
       "uuid": "574876f4-72bd-4f05-84fb-dd435c61531a",
       "name": "Turnip",
-      "x": 129,
-      "y": 103,
+      "x": 38,
+      "y": 97,
       "icon": {
         "id": "biomesoplenty:turnip"
       },
       "prerequisites": [
-        "326412f7-e550-472c-a4fb-e0ea55ecaa99"
+        "fb384ca6-2108-4b63-a138-cd2e724fa554"
       ],
       "tasks": [
         {
@@ -525,8 +525,8 @@
     {
       "uuid": "74e7a445-871c-4cf1-ae04-77bf9872cd75",
       "name": "Cactus",
-      "x": 43,
-      "y": 70,
+      "x": 38,
+      "y": 66,
       "icon": {
         "id": "minecraft:dye",
         "damage": 2
@@ -734,6 +734,11 @@
       "reward": [
         {
           "id": "immersiveengineering:seed",
+          "amount": 4
+        },
+        {
+          "id": "immersiveengineering:material",
+          "damage": 4,
           "amount": 5
         }
       ],
@@ -742,8 +747,8 @@
     {
       "uuid": "0cd81f20-1092-46dd-8d6f-83d420c29da4",
       "name": "Broccoli",
-      "x": 41,
-      "y": 107,
+      "x": 38,
+      "y": 129,
       "icon": {
         "id": "calculator:Broccoli"
       },

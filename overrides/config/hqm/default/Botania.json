@@ -37,8 +37,70 @@
       "reward": [
         {
           "id": "botania:manaTablet",
-          "amount": 2,
           "nbt": "{mana:500000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c560bdac-8ff5-47b2-bd27-209a2dc76bc0",
+      "name": "Seasonal Runes",
+      "x": 170,
+      "y": 20,
+      "icon": {
+        "id": "botania:rune",
+        "damage": 5
+      },
+      "prerequisites": [
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 4
+        },
+        {
+          "id": "botania:rune",
+          "damage": 5
+        },
+        {
+          "id": "botania:rune",
+          "damage": 6
+        },
+        {
+          "id": "botania:rune",
+          "damage": 7
         }
       ],
       "commandrewards": []
@@ -79,6 +141,85 @@
               "precision": "FUZZY"
             }
           ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aefbdce8-4af8-4e7e-a92c-cd085d7a12da",
+      "name": "Elemental Runes",
+      "x": 122,
+      "y": 20,
+      "icon": {
+        "id": "botania:rune",
+        "damage": 2
+      },
+      "prerequisites": [
+        "ca129f79-535c-41ab-b16d-868b0f96c4b6",
+        "91057371-d5cf-44ab-ac3c-32a7e60d9199",
+        "b7535cd1-7a4c-413e-934c-967623ae6a75",
+        "f18a2dee-9d11-4ab1-8795-a4d085ad878d"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "botania:rune",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "botania:rune",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "botania:rune",
+          "amount": 2
+        },
+        {
+          "id": "botania:rune",
+          "damage": 8,
+          "amount": 3
         }
       ],
       "commandrewards": []
@@ -137,6 +278,20 @@
             }
           ]
         }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "959f3ce4-67fa-45aa-8073-747b54cfa40c",
+      "name": "Unnamed",
+      "x": 218,
+      "y": 20,
+      "icon": {
+        "id": "botania:rune",
+        "damage": 14
+      },
+      "prerequisites": [
+        "c560bdac-8ff5-47b2-bd27-209a2dc76bc0"
       ],
       "commandrewards": []
     },

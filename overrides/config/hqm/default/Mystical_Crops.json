@@ -149,8 +149,8 @@
     {
       "uuid": "f06eb39d-a4c4-47dc-ac4b-67c91a09bf99",
       "name": "Aluminum Seeds",
-      "x": 209,
-      "y": 47,
+      "x": 211,
+      "y": 50,
       "icon": {
         "id": "mysticalagriculture:aluminum_essence"
       },
@@ -372,8 +372,8 @@
         "id": "mysticalagriculture:obsidian_essence"
       },
       "prerequisites": [
-        "9818f0d8-d00d-4b90-a77e-e9f3fd57181e",
-        "6903d625-f3cd-473e-a430-0e706914eb8f"
+        "6903d625-f3cd-473e-a430-0e706914eb8f",
+        "9818f0d8-d00d-4b90-a77e-e9f3fd57181e"
       ],
       "tasks": [
         {
@@ -409,7 +409,7 @@
         "id": "mysticalagriculture:redstone_essence"
       },
       "prerequisites": [
-        "ac914f7a-95db-483f-9f24-efe5fe9bfbd7"
+        "6dead231-42c6-4128-b32d-60cd8468a449"
       ],
       "tasks": [
         {
@@ -445,8 +445,8 @@
         "id": "mysticalagriculture:skeleton_essence"
       },
       "prerequisites": [
-        "b776a429-1078-41d5-b16a-688641385e2b",
-        "a82b5449-4c0a-4e8f-949c-a4858bde482d"
+        "a82b5449-4c0a-4e8f-949c-a4858bde482d",
+        "b776a429-1078-41d5-b16a-688641385e2b"
       ],
       "tasks": [
         {
@@ -699,11 +699,11 @@
         "id": "mysticalagriculture:prudentium_essence"
       },
       "prerequisites": [
+        "6903d625-f3cd-473e-a430-0e706914eb8f",
         "59e10d4f-80fb-41c0-b29b-4c6c36184683",
         "f721d341-1fa2-453b-91e4-e6772ef033db",
         "9818f0d8-d00d-4b90-a77e-e9f3fd57181e",
-        "b776a429-1078-41d5-b16a-688641385e2b",
-        "6903d625-f3cd-473e-a430-0e706914eb8f"
+        "b776a429-1078-41d5-b16a-688641385e2b"
       ],
       "tasks": [
         {
@@ -915,8 +915,8 @@
         "id": "mysticalagriculture:spider_essence"
       },
       "prerequisites": [
-        "03944fe5-109a-4ee7-b177-c9bf5cdd13e7",
-        "ad69daa9-eed9-4af2-aec1-cc1d2e545192"
+        "ad69daa9-eed9-4af2-aec1-cc1d2e545192",
+        "03944fe5-109a-4ee7-b177-c9bf5cdd13e7"
       ],
       "tasks": [
         {
@@ -993,13 +993,24 @@
       "tasks": [
         {
           "type": "DETECT",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:ghast_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
         }
       ],
       "reward": [
         {
           "id": "mysticalagriculture:prudentium_essence",
           "amount": 2
+        },
+        {
+          "id": "mysticalagriculture:ghast_essence",
+          "amount": 4
         }
       ],
       "commandrewards": []
@@ -1157,8 +1168,8 @@
         "id": "mysticalagriculture:creeper_essence"
       },
       "prerequisites": [
-        "59e10d4f-80fb-41c0-b29b-4c6c36184683",
-        "6903d625-f3cd-473e-a430-0e706914eb8f"
+        "6903d625-f3cd-473e-a430-0e706914eb8f",
+        "59e10d4f-80fb-41c0-b29b-4c6c36184683"
       ],
       "tasks": [
         {

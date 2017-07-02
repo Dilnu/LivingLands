@@ -158,8 +158,8 @@
         "id": "minecraft:planks"
       },
       "prerequisites": [
-        "3b6a03de-3e05-4007-9716-8902b38e211c",
-        "453a6fd4-6d05-4ccc-936f-0066c4d1e31a"
+        "453a6fd4-6d05-4ccc-936f-0066c4d1e31a",
+        "3b6a03de-3e05-4007-9716-8902b38e211c"
       ],
       "tasks": [
         {

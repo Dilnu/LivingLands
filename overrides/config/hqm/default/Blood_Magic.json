@@ -1,0 +1,193 @@
+{
+  "name": "Blood Magic",
+  "quests": [
+    {
+      "uuid": "816bf51e-869f-4ef3-9e9c-d6dd7af68a12",
+      "name": "Unnamed",
+      "x": 50,
+      "y": 19,
+      "icon": {
+        "id": "bloodmagic:ItemMonsterSoul"
+      },
+      "prerequisites": [
+        "3f50fed1-7b18-408a-83dd-d5940bc614e2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:ghast_essence"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemMonsterSoul"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemMonsterSoul",
+          "amount": 7
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b536c860-763c-41c5-b0c1-d6c3b6f0dfda",
+      "name": "Unnamed",
+      "x": 52,
+      "y": 71,
+      "icon": {
+        "id": "bloodmagic:ItemSoulGem"
+      },
+      "prerequisites": [
+        "816bf51e-869f-4ef3-9e9c-d6dd7af68a12",
+        "3de27bcb-0024-4f8f-aff8-8ec895c0ef48",
+        "1edbaab1-efd0-44c2-97a7-3e908d61a800"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSoulGem"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1edbaab1-efd0-44c2-97a7-3e908d61a800",
+      "name": "Hellfire Forge",
+      "x": 72,
+      "y": 48,
+      "icon": {
+        "id": "bloodmagic:BlockSoulForge"
+      },
+      "prerequisites": [
+        "774c314a-3850-4e7b-869a-87278cab2f88",
+        "864ea01e-6a40-4376-b291-a9cb1aa6a4cb",
+        "5ae24b91-9228-42a0-9131-2636e7ccb8df"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockSoulForge"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ae24b91-9228-42a0-9131-2636e7ccb8df",
+      "name": "Soulium",
+      "x": 78,
+      "y": 18,
+      "icon": {
+        "id": "mysticalagriculture:soulium_ingot"
+      },
+      "prerequisites": [
+        "f9226f73-5e97-47ba-bb61-3a334ca51f63"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:soul_sand"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:stone"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:soulstone"
+              },
+              "required": 5,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:soul_dust"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:prudentium_essence"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:soulium_dust"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:soulium_ingot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mysticalagriculture:soulium_ingot",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
