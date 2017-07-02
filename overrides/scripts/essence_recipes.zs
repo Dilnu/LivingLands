@@ -6,6 +6,7 @@ val iceEssence = <mysticalagriculture:ice_essence>;
 val natureEssence = <mysticalagriculture:nature_essence>;
 val coalEssence = <mysticalagriculture:coal_essence>;
 val quartzEssence = <mysticalagriculture:nether_quartz_essence>;
+val cowEssence = <mysticalagriculture:cow_essence>;
 
 recipes.addShaped(<quark:marble> * 16, [[iceEssence, iceEssence, iceEssence], [stoneEssence, stoneEssence, stoneEssence]]);
 recipes.addShaped(<quark:basalt> * 16, [[fireEssence, fireEssence, fireEssence], [stoneEssence, stoneEssence, stoneEssence]]);
@@ -23,6 +24,7 @@ recipes.addShaped(<minecraft:sand> * 8, [[driedSand, driedSand, driedSand], [dri
 
 // Clay Lava Bucket
 recipes.addShaped(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "lava", Amount: 1000}}), [[null, fireEssence, null], [fireEssence, <ceramics:clay_bucket>, fireEssence], [null, fireEssence, null]]);
+recipes.addShaped(<ceramics:clay_bucket:1>, [[null, cowEssence, null], [cowEssence, <ceramics:clay_bucket>, cowEssence], [null, cowEssence, null]]);
 
 // Water bottle
 recipes.addShaped(<minecraft:potion>, [[null, waterEssence, null], [waterEssence, <minecraft:glass_bottle>, waterEssence], [null, waterEssence, null]]);
