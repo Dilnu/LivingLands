@@ -233,7 +233,8 @@
             {
               "item": {
                 "id": "immersiveengineering:tool"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }

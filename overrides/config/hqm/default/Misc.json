@@ -9,6 +9,59 @@
       "icon": {
         "id": "tconstruct:tinker_tank_controller"
       },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tinker_tank_controller"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:smeltery_io"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared",
+                "damage": 3
+              },
+              "required": 7
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_slab",
+                "damage": 3
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_glass"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:seared",
+          "damage": 3,
+          "amount": 7
+        },
+        {
+          "id": "tconstruct:seared_glass",
+          "amount": 19
+        },
+        {
+          "id": "tconstruct:seared_slab",
+          "damage": 3,
+          "amount": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -97,7 +150,8 @@
             {
               "item": {
                 "id": "akashictome:tome"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -137,18 +191,55 @@
           ]
         }
       ],
+      "reward": [
+        {
+          "id": "agricraft:rake",
+          "damage": 1
+        },
+        {
+          "id": "agricraft:crop_sticks",
+          "amount": 32
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "5215763e-1022-4111-8dce-58a163df43b0",
-      "name": "Unnamed",
-      "x": 110,
-      "y": 49,
+      "name": "Drawer Controller",
+      "x": 114,
+      "y": 51,
       "icon": {
         "id": "storagedrawers:controller"
       },
       "prerequisites": [
         "2c568e36-a69b-4277-9a56-f3bf666fe7bd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "storagedrawers:controller"
+              }
+            },
+            {
+              "item": {
+                "id": "storagedrawers:controllerSlave"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "storagedrawers:drawerKey",
+          "amount": 4
+        },
+        {
+          "id": "storagedrawers:upgradeTemplate",
+          "amount": 2
+        }
       ],
       "commandrewards": []
     },
@@ -195,7 +286,7 @@
     },
     {
       "uuid": "f8bfbf91-9bb6-427a-94f0-1d0f4c549721",
-      "name": "Unnamed",
+      "name": "Compacting Drawers",
       "x": 144,
       "y": 52,
       "icon": {
@@ -203,6 +294,28 @@
       },
       "prerequisites": [
         "2c568e36-a69b-4277-9a56-f3bf666fe7bd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "storagedrawers:compDrawers"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "storagedrawers:compDrawers",
+          "amount": 3
+        },
+        {
+          "id": "storagedrawers:upgradeTemplate",
+          "amount": 4
+        }
       ],
       "commandrewards": []
     },
