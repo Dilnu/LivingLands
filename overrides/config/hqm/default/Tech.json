@@ -1,0 +1,541 @@
+{
+  "name": "Tech",
+  "quests": [
+    {
+      "uuid": "6dead231-42c6-4128-b32d-60cd8468a449",
+      "name": "Plates",
+      "x": 202,
+      "y": 45,
+      "icon": {
+        "id": "tconstruct:cast_custom",
+        "damage": 3
+      },
+      "prerequisites": [
+        "9bd41608-b048-4128-8beb-689d7704eceb",
+        "4403ef7a-1536-46ca-a241-123d62875d38",
+        "abecd86e-b30d-484a-8e31-9ca5a3e92760"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "practicallogistics2:StonePlate"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:cast_custom",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3bcf5afc-1bc2-4bc5-baa0-492e71eb2fdd",
+      "name": "Unnamed",
+      "x": 296,
+      "y": 10,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:fire_essence"
+              }
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:water_essence"
+              }
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:dirt_essence"
+              }
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:stone_essence"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a1888396-dfb2-46d6-8dfa-4b13a09103f2",
+      "name": "Kinetic Dynamo",
+      "x": 128,
+      "y": 70,
+      "icon": {
+        "id": "immersiveengineering:metalDevice1",
+        "damage": 2
+      },
+      "prerequisites": [
+        "3de27bcb-0024-4f8f-aff8-8ec895c0ef48"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:material",
+                "damage": 20
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:stick"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:wirecoil"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration0"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metalDevice1",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "460493bb-5073-4d90-ba9f-714cbe3d587d",
+      "name": "Coke",
+      "x": 82,
+      "y": 71,
+      "icon": {
+        "id": "immersiveengineering:material",
+        "damage": 6
+      },
+      "prerequisites": [
+        "0f5ae988-680a-47ce-bf0c-581b3165457f"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:material",
+                "damage": 6
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:stoneDecoration",
+          "damage": 3,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4403ef7a-1536-46ca-a241-123d62875d38",
+      "name": "Forging Hammer",
+      "x": 175,
+      "y": 14,
+      "icon": {
+        "id": "practicallogistics2:Hammer"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "practicallogistics2:Hammer"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a5163081-97ac-4543-aa6a-874c0ff45452",
+      "name": "Engineer\u0027s Hammer",
+      "x": 78,
+      "y": 13,
+      "icon": {
+        "id": "immersiveengineering:tool"
+      },
+      "prerequisites": [
+        "864ea01e-6a40-4376-b291-a9cb1aa6a4cb"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:tool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:tool",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0f5ae988-680a-47ce-bf0c-581b3165457f",
+      "name": "Coke Oven",
+      "x": 95,
+      "y": 43,
+      "icon": {
+        "id": "immersiveengineering:stoneDecoration"
+      },
+      "prerequisites": [
+        "a5163081-97ac-4543-aa6a-874c0ff45452"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sandstone"
+              },
+              "required": 3,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:brick"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "minecraft:clay_ball"
+              },
+              "required": 12
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:stoneDecoration"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:stoneDecoration",
+          "amount": 18
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2968c7da-5dfd-487e-b5b2-801bf2b8f3c9",
+      "name": "Unnamed",
+      "x": 45,
+      "y": 84,
+      "icon": {
+        "id": "immersiveengineering:metal",
+        "damage": 8
+      },
+      "prerequisites": [
+        "aa04cad7-1a2e-40d0-afd8-1b54077327be",
+        "460493bb-5073-4d90-ba9f-714cbe3d587d"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metal",
+                "damage": 8
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:metal",
+          "damage": 8,
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abecd86e-b30d-484a-8e31-9ca5a3e92760",
+      "name": "Smeltery",
+      "x": 237,
+      "y": 14,
+      "icon": {
+        "id": "tconstruct:smeltery_controller"
+      },
+      "prerequisites": [
+        "3bcf5afc-1bc2-4bc5-baa0-492e71eb2fdd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:smeltery_controller"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:smeltery_io"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:faucet"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:casting"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:casting",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_tank",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared",
+                "damage": 3
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:seared",
+          "damage": 3,
+          "amount": 13
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "aa04cad7-1a2e-40d0-afd8-1b54077327be",
+      "name": "Crude Blast Furnace",
+      "x": 56,
+      "y": 44,
+      "icon": {
+        "id": "immersiveengineering:stoneDecoration",
+        "damage": 1
+      },
+      "prerequisites": [
+        "774c314a-3850-4e7b-869a-87278cab2f88",
+        "a5163081-97ac-4543-aa6a-874c0ff45452"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:blaze_powder"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:netherbrick"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "minecraft:brick"
+              },
+              "required": 12
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:stoneDecoration",
+                "damage": 1
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:stoneDecoration",
+          "damage": 1,
+          "amount": 18
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ba78d631-2156-4fd3-8ae7-41f9ed238932",
+      "name": "Water Wheel",
+      "x": 107,
+      "y": 95,
+      "icon": {
+        "id": "immersiveengineering:woodenDevice1"
+      },
+      "prerequisites": [
+        "2968c7da-5dfd-487e-b5b2-801bf2b8f3c9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forge:bucketFilled",
+                "nbt": "{FluidName:\"creosote\",Amount:1000}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:treatedWood"
+              },
+              "required": 20,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:material",
+                "damage": 10
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metal",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:woodenDevice1"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:woodenDevice1"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

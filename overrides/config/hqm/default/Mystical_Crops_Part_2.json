@@ -1,0 +1,36 @@
+{
+  "name": "Mystical Crops Part 2",
+  "quests": [
+    {
+      "uuid": "e1718977-d42a-4796-bb6d-4da713cd2a69",
+      "name": "Unnamed",
+      "x": 73,
+      "y": 34,
+      "icon": {
+        "id": "mysticalagriculture:intermedium_essence"
+      },
+      "prerequisites": [
+        "b61797b6-2db6-4184-93e9-eaa324e9f077",
+        "00de115f-1073-4609-af5f-99f2f4f266a8",
+        "867d17b6-dffb-48f2-992f-19db8e061ec0",
+        "864ea01e-6a40-4376-b291-a9cb1aa6a4cb",
+        "74c45df4-59f7-4cb2-a6d2-26a9d3fc6d89"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:tier3_inferium_seeds"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
