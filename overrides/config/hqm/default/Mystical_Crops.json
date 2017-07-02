@@ -785,7 +785,8 @@
             {
               "item": {
                 "id": "mysticalagriculture:tier1_inferium_seeds"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
