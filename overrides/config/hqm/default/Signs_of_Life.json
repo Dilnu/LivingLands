@@ -190,12 +190,15 @@
     {
       "uuid": "165010fd-18ca-44df-abcb-aa7d29ae1dab",
       "name": "Unnamed",
-      "x": 45,
-      "y": 17,
+      "x": 47,
+      "y": 16,
       "icon": {
         "id": "tconstruct:pickaxe",
         "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:75,HarvestLevel:0,Attack:2.0f},Special:{Categories:[0:\"tool\",1:\"harvest\"]},TinkerData:{Materials:[0:\"wood\",1:\"wood\",2:\"wood\"],Modifiers:[0:\"toolleveling\"]},Modifiers:[0:{identifier:\"ecological\",color:-7444965,level:1},1:{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[0:\"ecological\",1:\"toolleveling\"]}"
       },
+      "prerequisites": [
+        "316b924f-0e9a-4658-8572-ced56f022a09"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -475,16 +478,6 @@
           "id": "botania:fertilizer",
           "amount": 16
         }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "fc4ef792-675a-40b4-909a-5e5b8997e91a",
-      "name": "Unnamed",
-      "x": 44,
-      "y": 17,
-      "prerequisites": [
-        "316b924f-0e9a-4658-8572-ced56f022a09"
       ],
       "commandrewards": []
     },

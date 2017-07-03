@@ -108,8 +108,8 @@
     {
       "uuid": "6197e70e-8642-48fd-8282-be527cd2433b",
       "name": "Wand of the Forest",
-      "x": 27,
-      "y": 10,
+      "x": 34,
+      "y": 15,
       "icon": {
         "id": "botania:twigWand",
         "nbt": "{color1:3,color2:3}"
@@ -227,8 +227,8 @@
     {
       "uuid": "e0a88b6b-0b30-4d21-a9f7-bfe2db6e67d0",
       "name": "Runic Altar",
-      "x": 88,
-      "y": 50,
+      "x": 86,
+      "y": 46,
       "icon": {
         "id": "botania:runeAltar"
       },

@@ -139,7 +139,7 @@
       "uuid": "d43cdc2e-39d0-4355-a2ce-9fd7184b054b",
       "name": "Akashic Tome",
       "x": 33,
-      "y": 21,
+      "y": 22,
       "icon": {
         "id": "akashictome:tome"
       },
@@ -161,13 +161,6 @@
           "id": "minecraft:book"
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "09569850-ea59-42a5-9273-a1d7de58bc03",
-      "name": "Unnamed",
-      "x": 33,
-      "y": 22,
       "commandrewards": []
     },
     {
@@ -280,6 +273,10 @@
           "damage": 2,
           "amount": 4,
           "nbt": "{material:\"oak\"}"
+        },
+        {
+          "id": "storagedrawers:upgradeTemplate",
+          "amount": 2
         }
       ],
       "commandrewards": []
