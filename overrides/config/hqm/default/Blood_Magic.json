@@ -2,15 +2,17 @@
   "name": "Blood Magic",
   "quests": [
     {
-      "uuid": "816bf51e-869f-4ef3-9e9c-d6dd7af68a12",
-      "name": "Unnamed",
-      "x": 64,
-      "y": 12,
+      "uuid": "521453c8-8641-4b2d-a051-dde4d0932f7c",
+      "name": "Stone Paths",
+      "x": 73,
+      "y": 185,
       "icon": {
-        "id": "bloodmagic:ItemMonsterSoul"
+        "id": "bloodmagic:BlockPath",
+        "damage": 2
       },
       "prerequisites": [
-        "3f50fed1-7b18-408a-83dd-d5940bc614e2"
+        "52770432-05af-4aa6-ac1e-215dfe5d6bde",
+        "d1a448dd-08ee-4ed1-bae9-271c04460fb7"
       ],
       "tasks": [
         {
@@ -18,34 +20,19 @@
           "items": [
             {
               "item": {
-                "id": "mysticalagriculture:ghast_essence"
+                "id": "bloodmagic:BlockPath",
+                "damage": 2
               },
-              "required": 5
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bloodmagic:ItemMonsterSoul"
-              },
-              "precision": "NBT_FUZZY"
+              "required": 12
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "bloodmagic:ItemMonsterSoul"
-        },
-        {
-          "id": "mysticalagriculture:ghast_essence",
-          "amount": 16
-        },
-        {
-          "id": "guideapi:ItemGuideBook"
+          "id": "bloodmagic:BlockPath",
+          "damage": 2,
+          "amount": 12
         }
       ],
       "commandrewards": []
@@ -53,8 +40,8 @@
     {
       "uuid": "6d8f0291-ed58-48a0-847b-33e49d52d2fd",
       "name": "Sacrifical Dagger",
-      "x": 17,
-      "y": 38,
+      "x": 25,
+      "y": 36,
       "icon": {
         "id": "bloodmagic:ItemSacrificialDagger"
       },
@@ -80,35 +67,10 @@
       "commandrewards": []
     },
     {
-      "uuid": "00244876-65b8-4627-b948-c75576cb15e2",
-      "name": "Alchemy Table",
-      "x": 14,
-      "y": 112,
-      "icon": {
-        "id": "bloodmagic:BlockAlchemyTable"
-      },
-      "prerequisites": [
-        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bloodmagic:BlockAlchemyTable"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "a4af5357-9b04-44e0-87a6-95ac2ec195b6",
       "name": "Apprentice Blood Orb",
-      "x": 87,
-      "y": 144,
+      "x": 75,
+      "y": 125,
       "icon": {
         "id": "bloodmagic:ItemBloodOrb",
         "damage": 1
@@ -135,38 +97,10 @@
           "id": "bloodmagic:BlockBloodRune",
           "damage": 4,
           "amount": 4
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "2e0f35d3-b98f-49f4-a8dc-2ce6c0cbf182",
-      "name": "Blank Runes",
-      "x": 76,
-      "y": 108,
-      "icon": {
-        "id": "bloodmagic:BlockBloodRune"
-      },
-      "prerequisites": [
-        "6c44de12-118b-41f2-88ae-1a987f15ad85",
-        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bloodmagic:BlockBloodRune"
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "reward": [
+        },
         {
           "id": "bloodmagic:BlockBloodRune",
+          "damage": 1,
           "amount": 4
         }
       ],
@@ -175,8 +109,8 @@
     {
       "uuid": "b536c860-763c-41c5-b0c1-d6c3b6f0dfda",
       "name": "Unnamed",
-      "x": 87,
-      "y": 43,
+      "x": 83,
+      "y": 39,
       "icon": {
         "id": "bloodmagic:ItemSoulGem"
       },
@@ -196,6 +130,41 @@
               "precision": "FUZZY"
             }
           ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "641a2195-8548-406f-ba2f-fdfaf380c634",
+      "name": "Reinforced Slate",
+      "x": 107,
+      "y": 103,
+      "icon": {
+        "id": "bloodmagic:ItemSlate",
+        "damage": 1
+      },
+      "prerequisites": [
+        "a4af5357-9b04-44e0-87a6-95ac2ec195b6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSlate",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "damage": 1,
+          "amount": 12
         }
       ],
       "commandrewards": []
@@ -228,8 +197,8 @@
     {
       "uuid": "6c44de12-118b-41f2-88ae-1a987f15ad85",
       "name": "Blank Slates",
-      "x": 65,
-      "y": 75,
+      "x": 86,
+      "y": 74,
       "icon": {
         "id": "bloodmagic:ItemSlate"
       },
@@ -258,10 +227,46 @@
       "commandrewards": []
     },
     {
+      "uuid": "f7362bab-4d33-499e-b7cc-4fcbf328dd1e",
+      "name": "Imbued Slate",
+      "x": 126,
+      "y": 132,
+      "icon": {
+        "id": "bloodmagic:ItemSlate",
+        "damage": 2
+      },
+      "prerequisites": [
+        "d1a448dd-08ee-4ed1-bae9-271c04460fb7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSlate",
+                "damage": 2
+              },
+              "required": 4,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "damage": 2,
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "48130645-9f91-4cc1-80d7-c4628b4d99bb",
       "name": "Blood Altar",
-      "x": 46,
-      "y": 49,
+      "x": 52,
+      "y": 55,
       "icon": {
         "id": "bloodmagic:BlockAltar"
       },
@@ -284,66 +289,6 @@
         {
           "id": "botania:livingrock",
           "amount": 32
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "1edbaab1-efd0-44c2-97a7-3e908d61a800",
-      "name": "Hellfire Forge",
-      "x": 119,
-      "y": 41,
-      "icon": {
-        "id": "bloodmagic:BlockSoulForge"
-      },
-      "prerequisites": [
-        "774c314a-3850-4e7b-869a-87278cab2f88",
-        "864ea01e-6a40-4376-b291-a9cb1aa6a4cb",
-        "5ae24b91-9228-42a0-9131-2636e7ccb8df"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bloodmagic:BlockSoulForge"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d18832c1-329e-4b2d-aea7-99d24ff828c4",
-      "name": "Weak Blood Orb",
-      "x": 24,
-      "y": 75,
-      "icon": {
-        "id": "bloodmagic:ItemBloodOrb"
-      },
-      "prerequisites": [
-        "48130645-9f91-4cc1-80d7-c4628b4d99bb",
-        "6d8f0291-ed58-48a0-847b-33e49d52d2fd"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "bloodmagic:ItemBloodOrb"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "bloodmagic:ItemSlate",
-          "amount": 4
         }
       ],
       "commandrewards": []
@@ -432,6 +377,246 @@
       "reward": [
         {
           "id": "mysticalagriculture:soulium_ingot",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "816bf51e-869f-4ef3-9e9c-d6dd7af68a12",
+      "name": "Unnamed",
+      "x": 64,
+      "y": 12,
+      "icon": {
+        "id": "bloodmagic:ItemMonsterSoul"
+      },
+      "prerequisites": [
+        "3f50fed1-7b18-408a-83dd-d5940bc614e2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:ghast_essence"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemMonsterSoul"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemMonsterSoul"
+        },
+        {
+          "id": "mysticalagriculture:ghast_essence",
+          "amount": 16
+        },
+        {
+          "id": "guideapi:ItemGuideBook"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00244876-65b8-4627-b948-c75576cb15e2",
+      "name": "Alchemy Table",
+      "x": 14,
+      "y": 112,
+      "icon": {
+        "id": "bloodmagic:BlockAlchemyTable"
+      },
+      "prerequisites": [
+        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockAlchemyTable"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2e0f35d3-b98f-49f4-a8dc-2ce6c0cbf182",
+      "name": "Blank Runes",
+      "x": 58,
+      "y": 96,
+      "icon": {
+        "id": "bloodmagic:BlockBloodRune"
+      },
+      "prerequisites": [
+        "6c44de12-118b-41f2-88ae-1a987f15ad85",
+        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockBloodRune"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1edbaab1-efd0-44c2-97a7-3e908d61a800",
+      "name": "Hellfire Forge",
+      "x": 119,
+      "y": 41,
+      "icon": {
+        "id": "bloodmagic:BlockSoulForge"
+      },
+      "prerequisites": [
+        "774c314a-3850-4e7b-869a-87278cab2f88",
+        "864ea01e-6a40-4376-b291-a9cb1aa6a4cb",
+        "5ae24b91-9228-42a0-9131-2636e7ccb8df"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockSoulForge"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d18832c1-329e-4b2d-aea7-99d24ff828c4",
+      "name": "Weak Blood Orb",
+      "x": 24,
+      "y": 75,
+      "icon": {
+        "id": "bloodmagic:ItemBloodOrb"
+      },
+      "prerequisites": [
+        "48130645-9f91-4cc1-80d7-c4628b4d99bb",
+        "6d8f0291-ed58-48a0-847b-33e49d52d2fd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemBloodOrb"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "52770432-05af-4aa6-ac1e-215dfe5d6bde",
+      "name": "Wooden Paths",
+      "x": 58,
+      "y": 154,
+      "icon": {
+        "id": "bloodmagic:BlockPath"
+      },
+      "prerequisites": [
+        "8f48c3fd-8762-4172-bf00-f85d431a76c4",
+        "a4af5357-9b04-44e0-87a6-95ac2ec195b6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockPath"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockPath",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d1a448dd-08ee-4ed1-bae9-271c04460fb7",
+      "name": "Magician\u0027s Blood Orb",
+      "x": 96,
+      "y": 155,
+      "icon": {
+        "id": "bloodmagic:ItemBloodOrb",
+        "damage": 2
+      },
+      "prerequisites": [
+        "a4af5357-9b04-44e0-87a6-95ac2ec195b6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemBloodOrb",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "damage": 4,
+          "amount": 4
+        },
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "damage": 6,
           "amount": 4
         }
       ],
