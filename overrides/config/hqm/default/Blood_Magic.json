@@ -71,6 +71,12 @@
           ]
         }
       ],
+      "reward": [
+        {
+          "id": "botania:brewVial",
+          "nbt": "{brewKey:\"healing\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -122,6 +128,13 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "damage": 4,
+          "amount": 4
         }
       ],
       "commandrewards": []
@@ -267,6 +280,12 @@
           ]
         }
       ],
+      "reward": [
+        {
+          "id": "botania:livingrock",
+          "amount": 32
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -319,6 +338,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "amount": 4
         }
       ],
       "commandrewards": []

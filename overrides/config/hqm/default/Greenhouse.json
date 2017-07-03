@@ -111,7 +111,7 @@
             {
               "item": {
                 "id": "agricraft:agri_seed",
-                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"orangetulip_plant\",agri_growth:1b}"
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"orange_tulip_plant\",agri_growth:1b}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -265,7 +265,7 @@
             {
               "item": {
                 "id": "agricraft:agri_seed",
-                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"whitetulip_plant\",agri_growth:1b}"
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"white_tulip_plant\",agri_growth:1b}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -312,7 +312,7 @@
             {
               "item": {
                 "id": "agricraft:agri_seed",
-                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"pinktulip_plant\",agri_growth:1b}"
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"pink_tulip_plant\",agri_growth:1b}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1012,7 +1012,7 @@
             {
               "item": {
                 "id": "agricraft:agri_seed",
-                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"redtulip_plant\",agri_growth:1b}"
+                "nbt": "{agri_analyzed:0b,agri_strength:1b,agri_gain:1b,agri_seed:\"red_tulip_plant\",agri_growth:1b}"
               },
               "precision": "NBT_FUZZY"
             }
