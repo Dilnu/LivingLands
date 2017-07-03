@@ -4,8 +4,8 @@
     {
       "uuid": "816bf51e-869f-4ef3-9e9c-d6dd7af68a12",
       "name": "Unnamed",
-      "x": 50,
-      "y": 19,
+      "x": 64,
+      "y": 12,
       "icon": {
         "id": "bloodmagic:ItemMonsterSoul"
       },
@@ -38,8 +38,123 @@
       ],
       "reward": [
         {
-          "id": "bloodmagic:ItemMonsterSoul",
-          "amount": 7
+          "id": "bloodmagic:ItemMonsterSoul"
+        },
+        {
+          "id": "mysticalagriculture:ghast_essence",
+          "amount": 16
+        },
+        {
+          "id": "guideapi:ItemGuideBook"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d8f0291-ed58-48a0-847b-33e49d52d2fd",
+      "name": "Sacrifical Dagger",
+      "x": 17,
+      "y": 38,
+      "icon": {
+        "id": "bloodmagic:ItemSacrificialDagger"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSacrificialDagger"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "00244876-65b8-4627-b948-c75576cb15e2",
+      "name": "Alchemy Table",
+      "x": 14,
+      "y": 112,
+      "icon": {
+        "id": "bloodmagic:BlockAlchemyTable"
+      },
+      "prerequisites": [
+        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockAlchemyTable"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a4af5357-9b04-44e0-87a6-95ac2ec195b6",
+      "name": "Apprentice Blood Orb",
+      "x": 87,
+      "y": 144,
+      "icon": {
+        "id": "bloodmagic:ItemBloodOrb",
+        "damage": 1
+      },
+      "prerequisites": [
+        "2e0f35d3-b98f-49f4-a8dc-2ce6c0cbf182"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemBloodOrb",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2e0f35d3-b98f-49f4-a8dc-2ce6c0cbf182",
+      "name": "Blank Runes",
+      "x": 76,
+      "y": 108,
+      "icon": {
+        "id": "bloodmagic:BlockBloodRune"
+      },
+      "prerequisites": [
+        "6c44de12-118b-41f2-88ae-1a987f15ad85",
+        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockBloodRune"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "amount": 4
         }
       ],
       "commandrewards": []
@@ -47,8 +162,8 @@
     {
       "uuid": "b536c860-763c-41c5-b0c1-d6c3b6f0dfda",
       "name": "Unnamed",
-      "x": 52,
-      "y": 71,
+      "x": 87,
+      "y": 43,
       "icon": {
         "id": "bloodmagic:ItemSoulGem"
       },
@@ -73,10 +188,92 @@
       "commandrewards": []
     },
     {
+      "uuid": "8f48c3fd-8762-4172-bf00-f85d431a76c4",
+      "name": "Incense Altar",
+      "x": 44,
+      "y": 123,
+      "icon": {
+        "id": "bloodmagic:BlockIncenseAltar"
+      },
+      "prerequisites": [
+        "d18832c1-329e-4b2d-aea7-99d24ff828c4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockIncenseAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c44de12-118b-41f2-88ae-1a987f15ad85",
+      "name": "Blank Slates",
+      "x": 65,
+      "y": 75,
+      "icon": {
+        "id": "bloodmagic:ItemSlate"
+      },
+      "prerequisites": [
+        "48130645-9f91-4cc1-80d7-c4628b4d99bb"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSlate"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48130645-9f91-4cc1-80d7-c4628b4d99bb",
+      "name": "Blood Altar",
+      "x": 46,
+      "y": 49,
+      "icon": {
+        "id": "bloodmagic:BlockAltar"
+      },
+      "prerequisites": [
+        "816bf51e-869f-4ef3-9e9c-d6dd7af68a12"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "1edbaab1-efd0-44c2-97a7-3e908d61a800",
       "name": "Hellfire Forge",
-      "x": 72,
-      "y": 48,
+      "x": 119,
+      "y": 41,
       "icon": {
         "id": "bloodmagic:BlockSoulForge"
       },
@@ -100,10 +297,37 @@
       "commandrewards": []
     },
     {
+      "uuid": "d18832c1-329e-4b2d-aea7-99d24ff828c4",
+      "name": "Weak Blood Orb",
+      "x": 24,
+      "y": 75,
+      "icon": {
+        "id": "bloodmagic:ItemBloodOrb"
+      },
+      "prerequisites": [
+        "48130645-9f91-4cc1-80d7-c4628b4d99bb",
+        "6d8f0291-ed58-48a0-847b-33e49d52d2fd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemBloodOrb"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "5ae24b91-9228-42a0-9131-2636e7ccb8df",
       "name": "Soulium",
-      "x": 78,
-      "y": 18,
+      "x": 104,
+      "y": 9,
       "icon": {
         "id": "mysticalagriculture:soulium_ingot"
       },
