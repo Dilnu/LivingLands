@@ -20,5 +20,5 @@ recipes.addShaped(<botania:odinRing>, [[<bloodmagic:ItemComponent:6>, <ore:ingot
 recipes.addShaped(<botania:thorRing>, [[<rftools:shape_card:5>, <ore:ingotTerrasteel>, null], [<ore:ingotTerrasteel>, <ore:eternalLifeEssence>, <ore:ingotTerrasteel>], [null, <ore:ingotTerrasteel>, null]]);
 recipes.addShaped(<botania:lokiRing>, [[<botania:astrolabe>, <ore:ingotTerrasteel>, null], [<ore:ingotTerrasteel>, <ore:eternalLifeEssence>, <ore:ingotTerrasteel>], [null, <ore:ingotTerrasteel>, null]]);
 recipes.addShaped(<botania:infiniteFruit>, [[<ore:eternalLifeEssence>, <ore:gemAmethyst>, null], [<ore:gemAmethyst>, <minecraft:apple>, <ore:gemAmethyst>], [null, <ore:gemAmethyst>, null]]);
-recipes.addShaped(<botania:flugelEye>, [[<ore:eternalLifeEssence>, <ore:gemTanzanite>, null], [<ore:gemTanzanite>, <minecraft:ender_eye>, <ore:gemTanzanite>], [null, <ore:gemTanzanite>, null]]);
+recipes.addShaped(<botania:flugelEye>, [[<ore:eternalLifeEssence>, <ore:gemMalachite>, null], [<ore:gemMalachite>, <minecraft:ender_eye>, <ore:gemMalachite>], [null, <ore:gemMalachite>, null]]);
 recipes.addShaped(<botania:kingKey>, [[null, <ore:ingotGold>, <ore:eternalLifeEssence>], [<ore:ingotGold>, <calculator:ObsidianKey>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
