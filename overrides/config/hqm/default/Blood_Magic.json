@@ -40,8 +40,8 @@
     {
       "uuid": "6d8f0291-ed58-48a0-847b-33e49d52d2fd",
       "name": "Sacrifical Dagger",
-      "x": 25,
-      "y": 36,
+      "x": 55,
+      "y": 37,
       "icon": {
         "id": "bloodmagic:ItemSacrificialDagger"
       },
@@ -197,8 +197,8 @@
     {
       "uuid": "6c44de12-118b-41f2-88ae-1a987f15ad85",
       "name": "Blank Slates",
-      "x": 86,
-      "y": 74,
+      "x": 14,
+      "y": 88,
       "icon": {
         "id": "bloodmagic:ItemSlate"
       },
@@ -257,7 +257,7 @@
         {
           "id": "bloodmagic:ItemSlate",
           "damage": 2,
-          "amount": 12
+          "amount": 8
         }
       ],
       "commandrewards": []
@@ -265,8 +265,8 @@
     {
       "uuid": "48130645-9f91-4cc1-80d7-c4628b4d99bb",
       "name": "Blood Altar",
-      "x": 52,
-      "y": 55,
+      "x": 10,
+      "y": 24,
       "icon": {
         "id": "bloodmagic:BlockAltar"
       },
@@ -383,6 +383,78 @@
       "commandrewards": []
     },
     {
+      "uuid": "6005bc9c-fb00-4dc0-8c59-db5af95b2f53",
+      "name": "Weak Blood Shard",
+      "x": 147,
+      "y": 101,
+      "icon": {
+        "id": "bloodmagic:ItemBloodShard"
+      },
+      "prerequisites": [
+        "00244876-65b8-4627-b948-c75576cb15e2",
+        "f7362bab-4d33-499e-b7cc-4fcbf328dd1e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemBloodShard"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemBloodShard"
+        },
+        {
+          "id": "bloodmagic:ItemSlate",
+          "damage": 2,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a87037c-8ab4-4308-9247-e1f5f0d03a6f",
+      "name": "Demonic Slate",
+      "x": 188,
+      "y": 113,
+      "icon": {
+        "id": "bloodmagic:ItemSlate",
+        "damage": 3
+      },
+      "prerequisites": [
+        "4652b59e-334f-4379-b4fb-bde118ab3bc4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSlate",
+                "damage": 3
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "damage": 3,
+          "amount": 6
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "816bf51e-869f-4ef3-9e9c-d6dd7af68a12",
       "name": "Unnamed",
       "x": 64,
@@ -434,8 +506,8 @@
     {
       "uuid": "00244876-65b8-4627-b948-c75576cb15e2",
       "name": "Alchemy Table",
-      "x": 14,
-      "y": 112,
+      "x": 123,
+      "y": 76,
       "icon": {
         "id": "bloodmagic:BlockAlchemyTable"
       },
@@ -490,6 +562,41 @@
       "commandrewards": []
     },
     {
+      "uuid": "4652b59e-334f-4379-b4fb-bde118ab3bc4",
+      "name": "Master Blood Orb",
+      "x": 164,
+      "y": 141,
+      "icon": {
+        "id": "bloodmagic:ItemBloodOrb",
+        "damage": 3
+      },
+      "prerequisites": [
+        "6005bc9c-fb00-4dc0-8c59-db5af95b2f53"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemBloodOrb",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "damage": 4,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "1edbaab1-efd0-44c2-97a7-3e908d61a800",
       "name": "Hellfire Forge",
       "x": 119,
@@ -519,8 +626,8 @@
     {
       "uuid": "d18832c1-329e-4b2d-aea7-99d24ff828c4",
       "name": "Weak Blood Orb",
-      "x": 24,
-      "y": 75,
+      "x": 39,
+      "y": 64,
       "icon": {
         "id": "bloodmagic:ItemBloodOrb"
       },
@@ -578,6 +685,42 @@
         {
           "id": "bloodmagic:BlockPath",
           "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de233b72-beb3-4e22-8362-b60f448d19ec",
+      "name": "Worn Stone Brick Road",
+      "x": 136,
+      "y": 169,
+      "icon": {
+        "id": "bloodmagic:BlockPath",
+        "damage": 4
+      },
+      "prerequisites": [
+        "4652b59e-334f-4379-b4fb-bde118ab3bc4",
+        "521453c8-8641-4b2d-a051-dde4d0932f7c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:BlockPath",
+                "damage": 4
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:BlockPath",
+          "damage": 4,
+          "amount": 12
         }
       ],
       "commandrewards": []
