@@ -43,16 +43,16 @@
       "commandrewards": []
     },
     {
-      "uuid": "c560bdac-8ff5-47b2-bd27-209a2dc76bc0",
-      "name": "Seasonal Runes",
-      "x": 170,
-      "y": 20,
+      "uuid": "b6f8eb65-91cb-4ac5-b3c6-b14950341312",
+      "name": "Elven Goods",
+      "x": 179,
+      "y": 103,
       "icon": {
-        "id": "botania:rune",
-        "damage": 5
+        "id": "botania:manaResource",
+        "damage": 7
       },
       "prerequisites": [
-        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+        "e15978cc-2c69-4c71-8fc5-4bff95ee7f9a"
       ],
       "tasks": [
         {
@@ -60,47 +60,73 @@
           "items": [
             {
               "item": {
-                "id": "botania:rune",
-                "damage": 4
-              }
-            },
-            {
-              "item": {
-                "id": "botania:rune",
-                "damage": 5
-              }
-            },
-            {
-              "item": {
-                "id": "botania:rune",
-                "damage": 6
-              }
-            },
-            {
-              "item": {
-                "id": "botania:rune",
+                "id": "botania:manaResource",
                 "damage": 7
-              }
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 8
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 9
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:dreamwood"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:elfGlass"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:sky_stone_block"
+              },
+              "required": 4
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "botania:rune",
-          "damage": 4
+          "id": "botania:manaResource",
+          "damage": 7,
+          "amount": 16
         },
         {
-          "id": "botania:rune",
-          "damage": 5
+          "id": "botania:manaResource",
+          "damage": 8,
+          "amount": 16
         },
         {
-          "id": "botania:rune",
-          "damage": 6
+          "id": "botania:manaResource",
+          "damage": 9,
+          "amount": 16
         },
         {
-          "id": "botania:rune",
-          "damage": 7
+          "id": "botania:dreamwood",
+          "amount": 32
+        },
+        {
+          "id": "botania:elfGlass",
+          "amount": 32
+        },
+        {
+          "id": "appliedenergistics2:sky_stone_block",
+          "amount": 4
         }
       ],
       "commandrewards": []
@@ -282,6 +308,258 @@
       "commandrewards": []
     },
     {
+      "uuid": "e15978cc-2c69-4c71-8fc5-4bff95ee7f9a",
+      "name": "Elven Gateway",
+      "x": 134,
+      "y": 99,
+      "icon": {
+        "id": "botania:alfheimPortal"
+      },
+      "prerequisites": [
+        "1d4aa10a-a5a5-4508-9e7d-8533f545d686"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:alfheimPortal"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:pylon",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "botania:livingwood"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:livingwood",
+                "damage": 5
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:lexicon",
+                "nbt": "{knowledge.minecraft:1b,knowledge.alfheim:1b,knowledge.relic:1b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaTablet",
+          "amount": 2,
+          "nbt": "{mana:500000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "17f84521-89cf-47c5-a098-3b86bf5c712a",
+      "name": "Botanical Brewery",
+      "x": 121,
+      "y": 60,
+      "icon": {
+        "id": "botania:brewery"
+      },
+      "prerequisites": [
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brewing_stand"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:brewery"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:brewVial",
+          "nbt": "{brewKey:\"clear\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "83fe6048-dba0-4eb6-b047-6ce06693d477",
+      "name": "Endoflames",
+      "x": 63,
+      "y": 14,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"endoflame\"}"
+      },
+      "prerequisites": [
+        "6197e70e-8642-48fd-8282-be527cd2433b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:petal",
+                "damage": 12
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "botania:petal",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "botania:petal",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"endoflame\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:specialFlower",
+          "amount": 7,
+          "nbt": "{type:\"endoflame\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a258ca70-a79b-4f62-b2fa-7807d4a4760b",
+      "name": "Sparks",
+      "x": 39,
+      "y": 83,
+      "icon": {
+        "id": "botania:spark"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spark"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:spark"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c560bdac-8ff5-47b2-bd27-209a2dc76bc0",
+      "name": "Seasonal Runes",
+      "x": 170,
+      "y": 20,
+      "icon": {
+        "id": "botania:rune",
+        "damage": 5
+      },
+      "prerequisites": [
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "botania:rune",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 4
+        },
+        {
+          "id": "botania:rune",
+          "damage": 5
+        },
+        {
+          "id": "botania:rune",
+          "damage": 6
+        },
+        {
+          "id": "botania:rune",
+          "damage": 7
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "959f3ce4-67fa-45aa-8073-747b54cfa40c",
       "name": "Unnamed",
       "x": 218,
@@ -375,16 +653,17 @@
       "commandrewards": []
     },
     {
-      "uuid": "83fe6048-dba0-4eb6-b047-6ce06693d477",
-      "name": "Endoflames",
-      "x": 63,
-      "y": 14,
+      "uuid": "1d4aa10a-a5a5-4508-9e7d-8533f545d686",
+      "name": "Terrasteel",
+      "x": 84,
+      "y": 84,
       "icon": {
-        "id": "botania:specialFlower",
-        "nbt": "{type:\"endoflame\"}"
+        "id": "botania:manaResource",
+        "damage": 4
       },
       "prerequisites": [
-        "6197e70e-8642-48fd-8282-be527cd2433b"
+        "a258ca70-a79b-4f62-b2fa-7807d4a4760b",
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
       ],
       "tasks": [
         {
@@ -392,21 +671,41 @@
           "items": [
             {
               "item": {
-                "id": "botania:petal",
-                "damage": 12
-              },
-              "required": 2
-            },
-            {
-              "item": {
-                "id": "botania:petal",
-                "damage": 8
+                "id": "botania:terraPlate"
               }
             },
             {
               "item": {
-                "id": "botania:petal",
-                "damage": 14
+                "id": "botania:livingrock"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:lapis_block"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 2
               }
             }
           ]
@@ -416,8 +715,8 @@
           "items": [
             {
               "item": {
-                "id": "botania:specialFlower",
-                "nbt": "{type:\"endoflame\"}"
+                "id": "botania:manaResource",
+                "damage": 4
               }
             }
           ]
@@ -425,9 +724,56 @@
       ],
       "reward": [
         {
-          "id": "botania:specialFlower",
-          "amount": 7,
-          "nbt": "{type:\"endoflame\"}"
+          "id": "botania:manaResource",
+          "damage": 4,
+          "amount": 7
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b1301b9e-3f0e-493f-b23c-5bcfa7310ebc",
+      "name": "Gaia Spirits",
+      "x": 203,
+      "y": 61,
+      "icon": {
+        "id": "botania:manaResource",
+        "damage": 5
+      },
+      "prerequisites": [
+        "959f3ce4-67fa-45aa-8073-747b54cfa40c",
+        "b6f8eb65-91cb-4ac5-b3c6-b14950341312"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pylon",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 5
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "damage": 5,
+          "amount": 4
         }
       ],
       "commandrewards": []
