@@ -263,6 +263,37 @@
       "commandrewards": []
     },
     {
+      "uuid": "a1935493-573e-4a49-8ae7-c5e55888461a",
+      "name": "Sigil of Divination",
+      "x": 193,
+      "y": 39,
+      "icon": {
+        "id": "bloodmagic:ItemSigilDivination"
+      },
+      "prerequisites": [
+        "e0532a1e-cdf5-4ca1-89b3-7d1f4ca70208"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemSigilDivination"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "48130645-9f91-4cc1-80d7-c4628b4d99bb",
       "name": "Blood Altar",
       "x": 10,
@@ -415,6 +446,38 @@
           "id": "bloodmagic:ItemSlate",
           "damage": 2,
           "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e0532a1e-cdf5-4ca1-89b3-7d1f4ca70208",
+      "name": "Arcane Ashes",
+      "description": "Arcane Ashes are created using the Hellfire forge, and are used for the creation of sigils and living items.",
+      "x": 156,
+      "y": 38,
+      "icon": {
+        "id": "bloodmagic:ItemArcaneAshes"
+      },
+      "prerequisites": [
+        "1edbaab1-efd0-44c2-97a7-3e908d61a800"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "bloodmagic:ItemArcaneAshes"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bloodmagic:ItemSlate",
+          "amount": 8
         }
       ],
       "commandrewards": []
@@ -591,7 +654,12 @@
         {
           "id": "bloodmagic:BlockBloodRune",
           "damage": 4,
-          "amount": 8
+          "amount": 4
+        },
+        {
+          "id": "bloodmagic:BlockBloodRune",
+          "damage": 10,
+          "amount": 2
         }
       ],
       "commandrewards": []
