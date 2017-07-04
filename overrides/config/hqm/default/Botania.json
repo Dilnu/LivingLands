@@ -726,7 +726,7 @@
         {
           "id": "botania:manaResource",
           "damage": 4,
-          "amount": 7
+          "amount": 3
         }
       ],
       "commandrewards": []
