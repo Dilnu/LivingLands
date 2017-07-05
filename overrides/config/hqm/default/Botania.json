@@ -2,51 +2,10 @@
   "name": "Botania",
   "quests": [
     {
-      "uuid": "3916c570-2ce6-46b7-beda-8a7cdf80171c",
-      "name": "Mana Spreader and Pool",
-      "x": 49,
-      "y": 46,
-      "icon": {
-        "id": "botania:spreader"
-      },
-      "prerequisites": [
-        "83fe6048-dba0-4eb6-b047-6ce06693d477"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "botania:spreader"
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "botania:pool"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "botania:manaTablet",
-          "nbt": "{mana:500000}"
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "b6f8eb65-91cb-4ac5-b3c6-b14950341312",
       "name": "Elven Goods",
-      "x": 179,
-      "y": 103,
+      "x": 242,
+      "y": 88,
       "icon": {
         "id": "botania:manaResource",
         "damage": 7
@@ -175,7 +134,7 @@
       "uuid": "aefbdce8-4af8-4e7e-a92c-cd085d7a12da",
       "name": "Elemental Runes",
       "x": 122,
-      "y": 20,
+      "y": 31,
       "icon": {
         "id": "botania:rune",
         "damage": 2
@@ -251,15 +210,16 @@
       "commandrewards": []
     },
     {
-      "uuid": "e0a88b6b-0b30-4d21-a9f7-bfe2db6e67d0",
-      "name": "Runic Altar",
-      "x": 86,
-      "y": 46,
+      "uuid": "f87bb83e-63ea-46fd-96a2-3aec7fe494e1",
+      "name": "Band of Mana",
+      "x": 104,
+      "y": 165,
       "icon": {
-        "id": "botania:runeAltar"
+        "id": "botania:manaRing",
+        "damage": 10000
       },
       "prerequisites": [
-        "3916c570-2ce6-46b7-beda-8a7cdf80171c"
+        "b056de45-5cdd-4d97-8be0-997ae09e3403"
       ],
       "tasks": [
         {
@@ -267,40 +227,10 @@
           "items": [
             {
               "item": {
-                "id": "botania:pestleAndMortar"
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "botania:manaResource",
-                "damage": 23
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "mysticalagriculture:master_infusion_crystal"
+                "id": "botania:manaRing",
+                "damage": 10000
               },
               "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "botania:runeAltar"
-              }
             }
           ]
         }
@@ -308,10 +238,42 @@
       "commandrewards": []
     },
     {
+      "uuid": "63a4dfd1-4341-4e98-890b-d6d38b7c0395",
+      "name": "Ender Air",
+      "x": 286,
+      "y": 148,
+      "icon": {
+        "id": "botania:manaResource",
+        "damage": 15
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 15
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "damage": 15,
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "e15978cc-2c69-4c71-8fc5-4bff95ee7f9a",
       "name": "Elven Gateway",
-      "x": 134,
-      "y": 99,
+      "x": 223,
+      "y": 150,
       "icon": {
         "id": "botania:alfheimPortal"
       },
@@ -371,10 +333,103 @@
       "commandrewards": []
     },
     {
+      "uuid": "b637e780-9d11-4fd3-b432-e6d823eb2c06",
+      "name": "Manufactory Halo",
+      "x": 75,
+      "y": 176,
+      "icon": {
+        "id": "botania:autocraftingHalo"
+      },
+      "prerequisites": [
+        "e658f5e7-7a9d-4005-9440-19299a7d1fbc"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:autocraftingHalo"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc97da7c-4e4e-4021-850d-4a372da3ac4e",
+      "name": "Conjuration Catalyst",
+      "x": 258,
+      "y": 175,
+      "icon": {
+        "id": "botania:conjurationCatalyst"
+      },
+      "prerequisites": [
+        "e15978cc-2c69-4c71-8fc5-4bff95ee7f9a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:conjurationCatalyst"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8e1e9bb2-63b5-42a7-84ae-53fa62a96935",
+      "name": "Rods of the Seas and Lands",
+      "x": 153,
+      "y": 60,
+      "icon": {
+        "id": "botania:dirtRod"
+      },
+      "prerequisites": [
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:dirtRod"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:waterRod"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 2
+        },
+        {
+          "id": "botania:rune"
+        },
+        {
+          "id": "botania:manaTablet",
+          "nbt": "{mana:500000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "17f84521-89cf-47c5-a098-3b86bf5c712a",
       "name": "Botanical Brewery",
-      "x": 121,
-      "y": 60,
+      "x": 95,
+      "y": 9,
       "icon": {
         "id": "botania:brewery"
       },
@@ -407,6 +462,394 @@
         {
           "id": "botania:brewVial",
           "nbt": "{brewKey:\"clear\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0a8266d2-894d-4c53-8fa9-47585b6ec523",
+      "name": "Hovering Hourglass",
+      "x": 106,
+      "y": 88,
+      "icon": {
+        "id": "botania:hourglass"
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:hourglass"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:hourglass",
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "51c9d5c6-901e-4ab5-a5c6-4b949f08935a",
+      "name": "Horn of the Canopy",
+      "x": 286,
+      "y": 14,
+      "icon": {
+        "id": "botania:grassHorn",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:grassHorn"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:grassHorn",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e658f5e7-7a9d-4005-9440-19299a7d1fbc",
+      "name": "Assembly Halo",
+      "x": 74,
+      "y": 133,
+      "icon": {
+        "id": "botania:craftingHalo"
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:craftingHalo"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a293c369-d920-4d71-848b-3b187bfea80b",
+      "name": "Gourmaryllis",
+      "x": 16,
+      "y": 40,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"gourmaryllis\"}"
+      },
+      "prerequisites": [
+        "6197e70e-8642-48fd-8282-be527cd2433b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"gourmaryllis\"}"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "botania:rune",
+          "damage": 5,
+          "amount": 2
+        },
+        {
+          "id": "botania:specialFlower",
+          "amount": 2,
+          "nbt": "{type:\"gourmaryllis\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "94b4db59-f2d6-4dda-be5d-5b12b715b643",
+      "name": "Globetrotter\u0027s Sash",
+      "x": 240,
+      "y": 12,
+      "icon": {
+        "id": "botania:superTravelBelt"
+      },
+      "prerequisites": [
+        "549275fd-08f2-4650-987c-610deb34ffd0",
+        "b1301b9e-3f0e-493f-b23c-5bcfa7310ebc"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:superTravelBelt"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "26aa2427-00eb-43ac-b774-32056ca05ad7",
+      "name": "Hand of Ender",
+      "x": 291,
+      "y": 184,
+      "icon": {
+        "id": "botania:enderHand"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:enderHand"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3916c570-2ce6-46b7-beda-8a7cdf80171c",
+      "name": "Mana Spreader and Pool",
+      "x": 49,
+      "y": 42,
+      "icon": {
+        "id": "botania:spreader"
+      },
+      "prerequisites": [
+        "83fe6048-dba0-4eb6-b047-6ce06693d477"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spreader"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaTablet",
+          "nbt": "{mana:500000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d37a7f03-2872-42ab-b6f2-70260c6d8284",
+      "name": "Unnamed",
+      "x": 19,
+      "y": 76,
+      "icon": {
+        "id": "botania:lens",
+        "damage": 2
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e0a88b6b-0b30-4d21-a9f7-bfe2db6e67d0",
+      "name": "Runic Altar",
+      "x": 88,
+      "y": 39,
+      "icon": {
+        "id": "botania:runeAltar"
+      },
+      "prerequisites": [
+        "3916c570-2ce6-46b7-beda-8a7cdf80171c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pestleAndMortar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 23
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:master_infusion_crystal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:runeAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0fa037a5-368c-4796-b362-8989661668e2",
+      "name": "Elven Mana Spreader",
+      "x": 258,
+      "y": 125,
+      "icon": {
+        "id": "botania:spreader",
+        "damage": 2
+      },
+      "prerequisites": [
+        "b6f8eb65-91cb-4ac5-b3c6-b14950341312"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spreader",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3da46729-0a02-4062-8365-f6c66c7ad6af",
+      "name": "Mana Infusion",
+      "x": 72,
+      "y": 86,
+      "icon": {
+        "id": "botania:manaResource"
+      },
+      "prerequisites": [
+        "3916c570-2ce6-46b7-beda-8a7cdf80171c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:manaGlass"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 23
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "amount": 8
+        },
+        {
+          "id": "botania:manaResource",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "botania:manaGlass",
+          "amount": 8
+        },
+        {
+          "id": "botania:manaResource",
+          "damage": 23,
+          "amount": 8
         }
       ],
       "commandrewards": []
@@ -470,10 +913,63 @@
       "commandrewards": []
     },
     {
+      "uuid": "549275fd-08f2-4650-987c-610deb34ffd0",
+      "name": "Soujorner\u0027s Sash",
+      "x": 146,
+      "y": 11,
+      "icon": {
+        "id": "botania:travelBelt"
+      },
+      "prerequisites": [
+        "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:travelBelt"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6634161a-1af6-474d-9678-bc3cc930a0e9",
+      "name": "Greater Band of Mana",
+      "x": 133,
+      "y": 174,
+      "icon": {
+        "id": "botania:manaRingGreater",
+        "damage": 10000
+      },
+      "prerequisites": [
+        "f87bb83e-63ea-46fd-96a2-3aec7fe494e1",
+        "1d4aa10a-a5a5-4508-9e7d-8533f545d686"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaRingGreater",
+                "damage": 10000
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "a258ca70-a79b-4f62-b2fa-7807d4a4760b",
       "name": "Sparks",
-      "x": 39,
-      "y": 83,
+      "x": 186,
+      "y": 111,
       "icon": {
         "id": "botania:spark"
       },
@@ -499,8 +995,8 @@
     {
       "uuid": "c560bdac-8ff5-47b2-bd27-209a2dc76bc0",
       "name": "Seasonal Runes",
-      "x": 170,
-      "y": 20,
+      "x": 171,
+      "y": 30,
       "icon": {
         "id": "botania:rune",
         "damage": 5
@@ -562,8 +1058,8 @@
     {
       "uuid": "959f3ce4-67fa-45aa-8073-747b54cfa40c",
       "name": "Unnamed",
-      "x": 218,
-      "y": 20,
+      "x": 219,
+      "y": 31,
       "icon": {
         "id": "botania:rune",
         "damage": 14
@@ -653,15 +1149,42 @@
       "commandrewards": []
     },
     {
+      "uuid": "787a2b43-b33b-4bfc-81e6-b0d86851e3f4",
+      "name": "Terra Truncator",
+      "x": 209,
+      "y": 175,
+      "icon": {
+        "id": "botania:terraAxe"
+      },
+      "prerequisites": [
+        "1d4aa10a-a5a5-4508-9e7d-8533f545d686"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terraAxe"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "1d4aa10a-a5a5-4508-9e7d-8533f545d686",
       "name": "Terrasteel",
-      "x": 84,
-      "y": 84,
+      "x": 161,
+      "y": 150,
       "icon": {
         "id": "botania:manaResource",
         "damage": 4
       },
       "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af",
         "a258ca70-a79b-4f62-b2fa-7807d4a4760b",
         "aefbdce8-4af8-4e7e-a92c-cd085d7a12da"
       ],
@@ -732,10 +1255,87 @@
       "commandrewards": []
     },
     {
+      "uuid": "b7bb6fde-14de-4221-9293-c20293d4c6e3",
+      "name": "Alchemy Catalyst",
+      "x": 37,
+      "y": 138,
+      "icon": {
+        "id": "botania:alchemyCatalyst"
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:alchemyCatalyst"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "45a4ce09-e04e-46d2-a248-26ab5bdcc94c",
+      "name": "Ring of Magnetization",
+      "x": 107,
+      "y": 57,
+      "icon": {
+        "id": "botania:magnetRing"
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:magnetRing"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "07bce7bf-1545-44d7-bd57-1fc03b7a09e8",
+      "name": "Black Hole Talisman",
+      "description": "Unnamed",
+      "x": 280,
+      "y": 83,
+      "icon": {
+        "id": "botania:blackHoleTalisman"
+      },
+      "prerequisites": [
+        "63a4dfd1-4341-4e98-890b-d6d38b7c0395",
+        "b1301b9e-3f0e-493f-b23c-5bcfa7310ebc"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:blackHoleTalisman"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "b1301b9e-3f0e-493f-b23c-5bcfa7310ebc",
       "name": "Gaia Spirits",
-      "x": 203,
-      "y": 61,
+      "x": 295,
+      "y": 43,
       "icon": {
         "id": "botania:manaResource",
         "damage": 5
@@ -774,6 +1374,161 @@
           "id": "botania:manaResource",
           "damage": 5,
           "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6a418d18-b372-4af5-b620-be615c85830c",
+      "name": "Flügel Tiara",
+      "x": 303,
+      "y": 98,
+      "icon": {
+        "id": "botania:flightTiara"
+      },
+      "prerequisites": [
+        "63a4dfd1-4341-4e98-890b-d6d38b7c0395",
+        "b1301b9e-3f0e-493f-b23c-5bcfa7310ebc"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:flightTiara"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fe4fcddd-a4a7-439e-ad25-e847194ea064",
+      "name": "Rod of the Shifting Crust",
+      "x": 190,
+      "y": 69,
+      "icon": {
+        "id": "botania:exchangeRod"
+      },
+      "prerequisites": [
+        "959f3ce4-67fa-45aa-8073-747b54cfa40c",
+        "8e1e9bb2-63b5-42a7-84ae-53fa62a96935"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:exchangeRod"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 12
+        },
+        {
+          "id": "botania:livingwood",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e495b2f4-3823-49bf-b398-bb7ef5aaa2c1",
+      "name": "Terra Shatterer",
+      "x": 170,
+      "y": 188,
+      "icon": {
+        "id": "botania:terraPick",
+        "nbt": "{mana:9999}"
+      },
+      "prerequisites": [
+        "1d4aa10a-a5a5-4508-9e7d-8533f545d686"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terraPick",
+                "nbt": "{mana:9999}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaTablet",
+          "amount": 2,
+          "nbt": "{mana:500000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b944ccdf-330b-44d1-ac95-5b96a8318730",
+      "name": "Spellbinding Cloth",
+      "x": 45,
+      "y": 184,
+      "icon": {
+        "id": "botania:spellCloth"
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spellCloth"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b056de45-5cdd-4d97-8be0-997ae09e3403",
+      "name": "Mana Tablet",
+      "x": 100,
+      "y": 128,
+      "icon": {
+        "id": "botania:manaTablet",
+        "nbt": "{mana:500000}"
+      },
+      "prerequisites": [
+        "3da46729-0a02-4062-8365-f6c66c7ad6af"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaTablet"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaTablet",
+          "nbt": "{mana:500000}"
         }
       ],
       "commandrewards": []
