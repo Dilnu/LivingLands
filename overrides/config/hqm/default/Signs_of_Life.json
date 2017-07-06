@@ -285,8 +285,8 @@
             },
             {
               "item": {
-                "id": "botania:waterBowl",
-                "nbt": "{Fluid:{FluidName:\"water\",Amount:1000}}"
+                "id": "ceramics:clay_bucket",
+                "nbt": "{fluids:{FluidName:\"water\",Amount:1000}}"
               }
             }
           ]

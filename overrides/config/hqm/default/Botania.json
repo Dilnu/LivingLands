@@ -325,9 +325,9 @@
       ],
       "reward": [
         {
-          "id": "botania:manaTablet",
-          "amount": 2,
-          "nbt": "{mana:500000}"
+          "id": "botania:blackLotus",
+          "damage": 1,
+          "amount": 8
         }
       ],
       "commandrewards": []
@@ -350,7 +350,8 @@
             {
               "item": {
                 "id": "botania:autocraftingHalo"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -400,12 +401,14 @@
             {
               "item": {
                 "id": "botania:dirtRod"
-              }
+              },
+              "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "botania:waterRod"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -513,7 +516,8 @@
             {
               "item": {
                 "id": "botania:grassHorn"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -524,9 +528,15 @@
               "item": {
                 "id": "botania:grassHorn",
                 "damage": 1
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manasteelShears"
         }
       ],
       "commandrewards": []
@@ -549,7 +559,8 @@
             {
               "item": {
                 "id": "botania:craftingHalo"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -620,7 +631,8 @@
             {
               "item": {
                 "id": "botania:superTravelBelt"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -645,6 +657,11 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:chest"
         }
       ],
       "commandrewards": []
@@ -684,8 +701,9 @@
       ],
       "reward": [
         {
-          "id": "botania:manaTablet",
-          "nbt": "{mana:500000}"
+          "id": "botania:blackLotus",
+          "damage": 1,
+          "amount": 2
         }
       ],
       "commandrewards": []
@@ -930,9 +948,20 @@
             {
               "item": {
                 "id": "botania:travelBelt"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:rune",
+          "damage": 2
+        },
+        {
+          "id": "botania:rune",
+          "damage": 3
         }
       ],
       "commandrewards": []
@@ -958,7 +987,8 @@
               "item": {
                 "id": "botania:manaRingGreater",
                 "damage": 10000
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1297,9 +1327,15 @@
             {
               "item": {
                 "id": "botania:magnetRing"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:baubleBox"
         }
       ],
       "commandrewards": []
@@ -1324,9 +1360,15 @@
             {
               "item": {
                 "id": "botania:blackHoleTalisman"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:blackHoleTalisman"
         }
       ],
       "commandrewards": []
@@ -1398,9 +1440,16 @@
               "item": {
                 "id": "botania:flightTiara"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "damage": 5,
+          "amount": 2
         }
       ],
       "commandrewards": []
@@ -1424,7 +1473,8 @@
             {
               "item": {
                 "id": "botania:exchangeRod"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1494,7 +1544,8 @@
             {
               "item": {
                 "id": "botania:spellCloth"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1520,7 +1571,8 @@
             {
               "item": {
                 "id": "botania:manaTablet"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }

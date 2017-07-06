@@ -280,7 +280,8 @@
             {
               "item": {
                 "id": "bloodmagic:ItemSigilDivination"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
