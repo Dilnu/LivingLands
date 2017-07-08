@@ -5,3 +5,5 @@ recipes.addShaped(<appliedenergistics2:material:1> * 8, [[certus, certus, certus
 
 recipes.remove(<calculator:CalculatorScreen>);
 recipes.addShaped(<calculator:CalculatorScreen>, [[<ore:gemPeridot>], [<ore:dustRedstone>], [<ore:itemSilicon>]]);
+
+<calculator:CircuitBoard:12>.maxStackSize = 32;
