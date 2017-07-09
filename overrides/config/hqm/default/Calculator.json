@@ -1,0 +1,168 @@
+{
+  "name": "Calculator",
+  "quests": [
+    {
+      "uuid": "7e920a9d-1e54-486f-972d-2fc1166e9941",
+      "name": "Calculator",
+      "x": 90,
+      "y": 20,
+      "icon": {
+        "id": "calculator:Calculator"
+      },
+      "prerequisites": [
+        "a9b85a6d-ce0a-4d17-b8c0-dcea1c23f390",
+        "de304b21-fc51-4054-8251-76781a2e1dec"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calculator:Calculator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "calculator:InfoCalculator"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e9729520-1226-4c4d-b6ce-55b26d3eae08",
+      "name": "Enriched Gold",
+      "x": 56,
+      "y": 40,
+      "icon": {
+        "id": "calculator:EnrichedGold"
+      },
+      "prerequisites": [
+        "7e920a9d-1e54-486f-972d-2fc1166e9941"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calculator:EnrichedGold"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "calculator:EnrichedGold",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bae77d34-4737-45a5-9099-4b400c70082b",
+      "name": "Reinforced Stone",
+      "x": 83,
+      "y": 51,
+      "icon": {
+        "id": "sonarcore:ReinforcedStoneBlock"
+      },
+      "prerequisites": [
+        "7e920a9d-1e54-486f-972d-2fc1166e9941"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "sonarcore:ReinforcedStoneBlock"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "sonarcore:ReinforcedStoneBlock",
+          "amount": 6
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3490551f-ed97-4f05-a782-08afd7efeb44",
+      "name": "Crafting Calculator",
+      "x": 115,
+      "y": 56,
+      "icon": {
+        "id": "calculator:CraftingCalculator"
+      },
+      "prerequisites": [
+        "7e920a9d-1e54-486f-972d-2fc1166e9941"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calculator:CraftingCalculator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d4253ff0-775c-4f98-97d7-de958ec823dc",
+      "name": "Unnamed",
+      "x": 58,
+      "y": 10,
+      "icon": {
+        "id": "calculator:PowerCube"
+      },
+      "prerequisites": [
+        "7e920a9d-1e54-486f-972d-2fc1166e9941"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4026654c-c112-45be-a9f6-6cfa609e2609",
+      "name": "Scientific Calculator",
+      "x": 57,
+      "y": 76,
+      "icon": {
+        "id": "calculator:ScientificCalculator"
+      },
+      "prerequisites": [
+        "e9729520-1226-4c4d-b6ce-55b26d3eae08",
+        "bae77d34-4737-45a5-9099-4b400c70082b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "calculator:ScientificCalculator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
