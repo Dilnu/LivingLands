@@ -100,6 +100,12 @@
           ]
         }
       ],
+      "reward": [
+        {
+          "id": "minecraft:clay",
+          "amount": 4
+        }
+      ],
       "commandrewards": []
     },
     {

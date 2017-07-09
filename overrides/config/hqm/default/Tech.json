@@ -837,6 +837,13 @@
           ]
         }
       ],
+      "reward": [
+        {
+          "id": "immersiveengineering:metal",
+          "damage": 8,
+          "amount": 16
+        }
+      ],
       "commandrewards": []
     },
     {
