@@ -2,80 +2,6 @@
   "name": "Tech",
   "quests": [
     {
-      "uuid": "6dead231-42c6-4128-b32d-60cd8468a449",
-      "name": "Plates",
-      "x": 202,
-      "y": 45,
-      "icon": {
-        "id": "tconstruct:cast_custom",
-        "damage": 3
-      },
-      "prerequisites": [
-        "9bd41608-b048-4128-8beb-689d7704eceb",
-        "4403ef7a-1536-46ca-a241-123d62875d38",
-        "abecd86e-b30d-484a-8e31-9ca5a3e92760"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "practicallogistics2:StonePlate"
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:cast_custom",
-                "damage": 3
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3bcf5afc-1bc2-4bc5-baa0-492e71eb2fdd",
-      "name": "Unnamed",
-      "x": 296,
-      "y": 10,
-      "trigger": "QUEST_TRIGGER",
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "mysticalagriculture:fire_essence"
-              }
-            },
-            {
-              "item": {
-                "id": "mysticalagriculture:water_essence"
-              }
-            },
-            {
-              "item": {
-                "id": "mysticalagriculture:dirt_essence"
-              }
-            },
-            {
-              "item": {
-                "id": "mysticalagriculture:stone_essence"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "a1888396-dfb2-46d6-8dfa-4b13a09103f2",
       "name": "Kinetic Dynamo",
       "x": 128,
@@ -151,63 +77,6 @@
               "item": {
                 "id": "immersiveengineering:metalDevice1",
                 "damage": 2
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "460493bb-5073-4d90-ba9f-714cbe3d587d",
-      "name": "Coke",
-      "x": 82,
-      "y": 71,
-      "icon": {
-        "id": "immersiveengineering:material",
-        "damage": 6
-      },
-      "prerequisites": [
-        "0f5ae988-680a-47ce-bf0c-581b3165457f"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "immersiveengineering:material",
-                "damage": 6
-              },
-              "required": 4
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "immersiveengineering:stoneDecoration",
-          "damage": 3,
-          "amount": 4
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "4403ef7a-1536-46ca-a241-123d62875d38",
-      "name": "Forging Hammer",
-      "x": 175,
-      "y": 14,
-      "icon": {
-        "id": "practicallogistics2:Hammer"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "practicallogistics2:Hammer"
               }
             }
           ]
@@ -336,6 +205,81 @@
           "id": "immersiveengineering:metal",
           "damage": 8,
           "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "576d937c-0edf-4d62-a40e-d19193a1f521",
+      "name": "Metal Press",
+      "x": 71,
+      "y": 154,
+      "icon": {
+        "id": "immersiveengineering:mold"
+      },
+      "prerequisites": [
+        "d1031f25-2944-47ed-992c-f43515cd5e95",
+        "8c2abb0f-a612-4411-91fe-c323231a7d31"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration1",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration0",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:conveyor",
+                "nbt": "{conveyorType:\"immersiveengineering:conveyor\"}"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration0",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:piston"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:metalDecoration1",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "immersiveengineering:metalDecoration0",
+          "damage": 3
+        },
+        {
+          "id": "immersiveengineering:conveyor",
+          "amount": 4,
+          "nbt": "{conveyorType:\"immersiveengineering:conveyor\"}"
+        },
+        {
+          "id": "immersiveengineering:metalDecoration0",
+          "damage": 5
+        },
+        {
+          "id": "minecraft:piston"
         }
       ],
       "commandrewards": []
@@ -533,6 +477,406 @@
       "reward": [
         {
           "id": "immersiveengineering:woodenDevice1"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8a999ea4-d150-4edd-8574-8053050f8610",
+      "name": "Press Molds",
+      "x": 71,
+      "y": 185,
+      "icon": {
+        "id": "immersiveengineering:mold",
+        "damage": 4
+      },
+      "prerequisites": [
+        "576d937c-0edf-4d62-a40e-d19193a1f521"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:mold"
+              }
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:mold",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:mold",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6dead231-42c6-4128-b32d-60cd8468a449",
+      "name": "Plates",
+      "x": 202,
+      "y": 45,
+      "icon": {
+        "id": "tconstruct:cast_custom",
+        "damage": 3
+      },
+      "prerequisites": [
+        "9bd41608-b048-4128-8beb-689d7704eceb",
+        "4403ef7a-1536-46ca-a241-123d62875d38",
+        "abecd86e-b30d-484a-8e31-9ca5a3e92760"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "practicallogistics2:StonePlate"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:cast_custom",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4af088d4-0349-48d7-9bd0-f94d9bf6bfc3",
+      "name": "Pumps and Piping",
+      "x": 18,
+      "y": 125,
+      "icon": {
+        "id": "immersiveengineering:metalDevice0",
+        "damage": 5
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metalDevice1",
+                "damage": 6
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metalDevice0",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:metalDevice1",
+          "damage": 6,
+          "amount": 16
+        },
+        {
+          "id": "immersiveengineering:metalDevice0",
+          "damage": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3bcf5afc-1bc2-4bc5-baa0-492e71eb2fdd",
+      "name": "Unnamed",
+      "x": 296,
+      "y": 10,
+      "trigger": "QUEST_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "mysticalagriculture:fire_essence"
+              }
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:water_essence"
+              }
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:dirt_essence"
+              }
+            },
+            {
+              "item": {
+                "id": "mysticalagriculture:stone_essence"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8c2abb0f-a612-4411-91fe-c323231a7d31",
+      "name": "Wiring",
+      "x": 48,
+      "y": 122,
+      "icon": {
+        "id": "immersiveengineering:wirecoil"
+      },
+      "prerequisites": [
+        "ba78d631-2156-4fd3-8ae7-41f9ed238932"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:wirecoil"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:connector"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:connector",
+                "damage": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:wirecoil",
+          "amount": 4
+        },
+        {
+          "id": "immersiveengineering:connector",
+          "amount": 2
+        },
+        {
+          "id": "immersiveengineering:connector",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "immersiveengineering:tool",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "460493bb-5073-4d90-ba9f-714cbe3d587d",
+      "name": "Coke",
+      "x": 82,
+      "y": 71,
+      "icon": {
+        "id": "immersiveengineering:material",
+        "damage": 6
+      },
+      "prerequisites": [
+        "0f5ae988-680a-47ce-bf0c-581b3165457f"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:material",
+                "damage": 6
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:stoneDecoration",
+          "damage": 3,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4403ef7a-1536-46ca-a241-123d62875d38",
+      "name": "Forging Hammer",
+      "x": 175,
+      "y": 14,
+      "icon": {
+        "id": "practicallogistics2:Hammer"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "practicallogistics2:Hammer"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0907f623-59bb-458f-a8e7-c92217779aa8",
+      "name": "Garden Cloche",
+      "x": 34,
+      "y": 158,
+      "icon": {
+        "id": "immersiveengineering:metalDevice1",
+        "damage": 13
+      },
+      "prerequisites": [
+        "8c2abb0f-a612-4411-91fe-c323231a7d31",
+        "4af088d4-0349-48d7-9bd0-f94d9bf6bfc3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metalDevice1",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:metalDevice1",
+          "damage": 13,
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d3f2849e-e222-4153-a5c4-1263b6653a40",
+      "name": "Crusher",
+      "x": 109,
+      "y": 157,
+      "icon": {
+        "id": "immersiveengineering:metal",
+        "damage": 16
+      },
+      "prerequisites": [
+        "d1031f25-2944-47ed-992c-f43515cd5e95",
+        "8c2abb0f-a612-4411-91fe-c323231a7d31"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration1",
+                "damage": 1
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration0",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration0",
+                "damage": 4
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "immersiveengineering:metalDecoration1"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:hopper"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d1031f25-2944-47ed-992c-f43515cd5e95",
+      "name": "Metal Rods",
+      "x": 94,
+      "y": 125,
+      "icon": {
+        "id": "immersiveengineering:material",
+        "damage": 2
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:stone_stick"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveengineering:mold",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "immersiveengineering:material",
+          "damage": 2,
+          "amount": 4
         }
       ],
       "commandrewards": []
