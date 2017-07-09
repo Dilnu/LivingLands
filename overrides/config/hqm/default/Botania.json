@@ -316,8 +316,8 @@
           "items": [
             {
               "item": {
-                "id": "botania:lexicon",
-                "nbt": "{knowledge.minecraft:1b,knowledge.alfheim:1b,knowledge.relic:1b}"
+                "id": "botania:manaResource",
+                "damage": 7
               }
             }
           ]
@@ -379,6 +379,23 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:tallgrass",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "botania:blackLotus",
+          "damage": 1,
+          "amount": 4
+        },
+        {
+          "id": "biomesoplenty:leaves_5",
+          "damage": 11,
+          "amount": 4
         }
       ],
       "commandrewards": []
@@ -890,30 +907,6 @@
           "items": [
             {
               "item": {
-                "id": "botania:petal",
-                "damage": 12
-              },
-              "required": 2
-            },
-            {
-              "item": {
-                "id": "botania:petal",
-                "damage": 8
-              }
-            },
-            {
-              "item": {
-                "id": "botania:petal",
-                "damage": 14
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
                 "id": "botania:specialFlower",
                 "nbt": "{type:\"endoflame\"}"
               }
@@ -1307,6 +1300,23 @@
           ]
         }
       ],
+      "reward": [
+        {
+          "id": "minecraft:sapling",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:double_plant",
+          "damage": 4,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 3,
+          "amount": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1548,6 +1558,12 @@
               "precision": "NBT_FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:experience_bottle",
+          "amount": 16
         }
       ],
       "commandrewards": []
