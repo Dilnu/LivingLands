@@ -46,6 +46,63 @@
       "commandrewards": []
     },
     {
+      "uuid": "484c2b02-17a5-461e-a4bb-13a2dbe0b2f6",
+      "name": "Clay",
+      "x": 130,
+      "y": 17,
+      "icon": {
+        "id": "ceramics:clay_shears"
+      },
+      "prerequisites": [
+        "03de40e9-e0bc-49b9-acc8-f185a98e6d26"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay_ball"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ceramics:unfired_clay",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ceramics:unfired_clay"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ceramics:clay_shears"
+              }
+            },
+            {
+              "item": {
+                "id": "ceramics:clay_bucket"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "3b6a03de-3e05-4007-9716-8902b38e211c",
       "name": "Unnamed",
       "x": 59,
@@ -390,19 +447,9 @@
         "id": "botania:grassSeeds"
       },
       "prerequisites": [
-        "03de40e9-e0bc-49b9-acc8-f185a98e6d26"
+        "484c2b02-17a5-461e-a4bb-13a2dbe0b2f6"
       ],
       "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "ceramics:clay_shears"
-              }
-            }
-          ]
-        },
         {
           "type": "DETECT",
           "items": [
