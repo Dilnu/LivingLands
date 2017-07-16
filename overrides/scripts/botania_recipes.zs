@@ -3,6 +3,7 @@ import mods.botania.ElvenTrade;
 import mods.botania.RuneAltar;
 
 ElvenTrade.addRecipe([<appliedenergistics2:sky_stone_block>], [<ore:livingrock>, <ore:livingrock>]);
+ElvenTrade.addRecipe([<draconicevolution:chaos_shard:3>], [<calculator:EndDiamond>, <draconicevolution:draconic_ingot>]);
 
 val basicSeed = <ore:basicSeed>;
 basicSeed.add(<minecraft:wheat_seeds>);
