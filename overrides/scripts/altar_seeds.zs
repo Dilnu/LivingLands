@@ -95,7 +95,7 @@ RuneAltar.addRecipe(<mysticalagriculture:wither_skeleton_seeds>, [<ore:runeWrath
 
 // Tier 5
 RuneAltar.addRecipe(seed5, [<mysticalagriculture:certus_quartz_essence>, <mysticalagriculture:emerald_essence>, <mysticalagriculture:ruby_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:wither_skeleton_essence>, essence5, seed4], 40000);
-RuneAltar.addRecipe(<mysticalagriculture:malachite_seeds>, [<minecraft:ghast_tear>, <ore:crystalCopper>, <bloodmagic:ItemComponent:2>, <bloodmagic:ItemComponent:15>, essence5, essence5, essence5, seed5], 40000);
+RuneAltar.addRecipe(<mysticalagriculture:malachite_seeds>, [<minecraft:ghast_tear>, <immersiveengineering:skyhook>, <bloodmagic:ItemComponent:2>, <bloodmagic:ItemComponent:15>, essence5, essence5, essence5, seed5], 40000);
 RuneAltar.addRecipe(<mysticalagriculture:fluix_seeds>, [<appliedenergistics2:fluix_block>, <ore:crystalPureFluix>, <ore:runeGluttonyB>, <ore:runeGreedB>, essence5, essence5, essence5, seed5], 40000);
 RuneAltar.addRecipe(<mysticalagriculture:topaz_seeds>, [<botania:pistonRelay>, <ore:blockSlime>, <ore:runeSlothB>, <ore:runeEnvyB>, essence5, essence5, essence5, seed5], 40000);
 RuneAltar.addRecipe(<mysticalagriculture:tanzanite_seeds>, [<ore:gemTanzanite>, <ore:runeLustB>, <bloodmagic:ItemTelepositionFocus>, <randomthings:stableEnderpearl>, essence5, essence5, essence5, seed5], 40000);

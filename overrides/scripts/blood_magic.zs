@@ -18,4 +18,10 @@ recipes.addShapeless(<bloodmagic:ItemBloodShard> * 5, [<bloodmagic:ItemBloodShar
 recipes.addShapeless(<bloodmagic:ItemBloodShard> * 5, [<bloodmagic:ItemBloodShard>, <bloodmagic:ItemSlate:2>, <bloodmagic:ItemBloodOrb:4>]);
 recipes.addShapeless(<bloodmagic:ItemBloodShard> * 5, [<bloodmagic:ItemBloodShard>, <bloodmagic:ItemSlate:2>, <bloodmagic:ItemBloodOrb:5>]);
 
+recipes.addShapeless(<bloodmagic:ItemBloodShard:1> * 5, [<bloodmagic:ItemBloodShard:1>, <bloodmagic:ItemSlate:3>, <bloodmagic:ItemBloodOrb:4>]);
+recipes.addShapeless(<bloodmagic:ItemBloodShard:1> * 5, [<bloodmagic:ItemBloodShard:1>, <bloodmagic:ItemSlate:3>, <bloodmagic:ItemBloodOrb:5>]);
+
 mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:ItemBloodShard>, 10000, 1000, 3, [<minecraft:fermented_spider_eye>, <tconstruct:edible:33>, <bloodmagic:ItemSlate:2>]);
+mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:ItemBloodShard:1>, 10000, 1000, 5, [<bloodmagic:ItemBloodShard>, <bloodmagic:ItemDemonCrystal>, <extrautils2:ingredients:11>, <bloodmagic:ItemSlate:3>]);
+
+recipes.addShaped(<bloodmagic:BlockCrystal>, [[<ore:crystalFluix>, <bloodmagic:ItemBloodShard:1>, <ore:crystalFluix>], [<bloodmagic:ItemBloodShard:1>, <bloodmagic:BlockDemonCrystal:*>, <bloodmagic:ItemBloodShard:1>], [<ore:crystalFluix>, <bloodmagic:ItemBloodShard:1>, <ore:crystalFluix>]]);
